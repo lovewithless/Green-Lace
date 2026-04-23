@@ -1,0 +1,4462 @@
+/* ============================================
+ * Green & Lace AO3 Skin 
+ * Author: [落凤之南/nan11]
+ * Version: 2026.04.23
+ * 
+ * ⚠️ 请勿去除本注释二次发布
+ * ⚠️ 如需修改请 fork 后署名原作者
+ * ⚠️ 商用需联系作者
+ * ============================================ */
+html {
+  height: 100% !important;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+
+#archive,
+#outer {
+  background: transparent !important;
+  position: relative !important;
+  z-index: 1 !important;
+  overflow: visible !important;
+}
+
+body::before {
+  content: "" !important;
+  display: block !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100lvh !important;
+  background-color: #C7D1B5 !important;
+  background-image: none !important;
+  z-index: -2 !important;
+}
+
+#skin-parents fieldset fieldset,
+#new_skin fieldset fieldset,
+.new-skin fieldset fieldset,
+form[id*="skin"] fieldset fieldset {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+}
+
+body::after {
+  content: "" !important;
+  display: block !important;
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100vw !important;
+  height: 100lvh !important;
+  background: transparent !important;
+  z-index: -1 !important;
+}
+
+#inner,
+#main,
+#dashboard,
+#header,
+#header .heading {
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+#main a {
+  color: #593423;
+  transition: color 0.2s ease;
+}
+
+#main a:hover {
+  color: #8C5A3C !important;
+}
+
+#header #greeting .dropdown > a[href*="/works/new"],
+#header #greeting .dropdown > a[href*="/users/"],
+#header #greeting a[href*="/users/logout"] {
+  display: inline-block !important;
+  width: 22px !important;
+  height: 22px !important;
+  padding: 0 !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  background-color: transparent !important;
+  color: transparent !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  text-indent: -9999px !important;
+  overflow: hidden !important;
+  border: none !important;
+  box-shadow: none !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+
+#header #greeting .dropdown > a[href*="/works/new"] {
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0883.PNG") !important;
+}
+
+#header #greeting .dropdown > a[href*="/users/"] {
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0885.PNG") !important;
+}
+
+#header #greeting a[href*="/users/logout"] {
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0884.PNG") !important;
+}
+
+#header #greeting a[href*="/users/logout"],
+#header #greeting a[href*="/users/logout"]:hover,
+#header #greeting a[href*="/users/logout"]:focus,
+#header #greeting a[href*="/users/logout"]:active {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+}
+
+#header #greeting > ul > li > a {
+  display: inline-block;
+  padding: 1px 2px !important;
+  background: transparent;
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+
+#greeting > ul > li {
+  margin: 0 3px !important;
+}
+
+#header #greeting > ul > li:is(.open,
+:hover,
+:focus,
+:active) > a {
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+
+#header .dropdown:hover a,
+#greeting .user > li:nth-of-type(3) a:hover {
+  background: transparent !important;
+  color: #593423 !important;
+  border: none !important;
+  box-shadow: 0px 0px 8px rgba(239, 217, 204, 0.28) !important;
+  border-radius: 8px !important;
+}
+
+#greeting .menu {
+  width: 12em !important;
+  border-radius: 8px !important;
+  left: auto !important;
+  right: 0;
+  box-shadow: 0px 0px 8px rgba(239, 217, 204, 0.28) !important;
+}
+
+#header .menu {
+  width: 20em;
+  background: rgba(255, 248, 231, 0.95) !important;
+  border: none !important;
+  box-shadow: 0px 0px 8px rgba(239, 217, 204, 0.28) !important;
+  border-radius: 8px !important;
+}
+
+#header .dropdown .menu a:hover,
+#header .dropdown .menu a:focus {
+  background: #F6EDDC !important;
+  color: #593423 !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 6px !important;
+}
+
+#header a.dropdown-toggle,
+#greeting .user > li:nth-of-type(3) a {
+  color: #593423 !important;
+  border-radius: 8px !important;
+  background-image: none !important;
+  box-shadow: 0px 0px 4px rgba(239, 217, 204, 0.18) !important;
+}
+
+#header .menu li a {
+  color: #593423 !important;
+}
+
+#header .menu li {
+  border-bottom: none;
+}
+
+#main h2.heading a.tag,
+#main h2.heading a.tag.current {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #593423 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+
+#main h2.heading a.tag:hover {
+  background: transparent !important;
+  color: #8C5A3C !important;
+  box-shadow: 0px 0px 4px rgba(239, 217, 204, 0.18) !important;
+}
+
+#footer {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border-top: 2px solid #F6EDDC !important;
+  box-shadow: 0px -4px 10px rgba(91, 67, 60, 0.12) !important;
+  margin-bottom: 0 !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 20px !important;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#footer .heading {
+  font-variant: small-caps;
+  color: #593423;
+}
+
+#footer li,
+#footer li a,
+#footer button {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  text-decoration: none;
+  color: #593423 !important;
+  border-radius: 4px !important;
+}
+
+#footer li a:hover,
+#footer button:hover {
+  background: rgba(255, 255, 255, 0.3) !important;
+  text-decoration: underline !important;
+  color: #593423 !important;
+}
+
+.favorite.module.odd h3.heading,
+.latest.news.module h3.heading span.title,
+.random.readings.module h3.heading span.title,
+.latest.messages.module h3.heading span.title,
+.social.module h3.heading {
+  color: #593423;
+  font-variant: small-caps;
+}
+
+.favorite.module.odd h3.heading,
+.latest.news.module h3.heading,
+.latest.messages.module.odd h3.heading,
+.social.module h3.heading {
+  border-bottom: none !important;
+  box-shadow: 0px 2px 4px rgba(239, 217, 204, 0.18) !important;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a,
+.splash .favorite li:nth-of-type(2n+2) a {
+  background: rgba(255, 248, 231, 0.5) !important;
+  color: #593423 !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 6px rgba(239, 217, 204, 0.22) !important;
+  border: none !important;
+  display: inline-flex !important;
+  align-items: center !important;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a::before,
+.splash .favorite li:nth-of-type(2n+2) a::before {
+  content: "" !important;
+  display: inline-block !important;
+  width: 16px !important;
+  height: 16px !important;
+  margin-right: 6px !important;
+  vertical-align: -2px !important;
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0898.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+  text-shadow: none !important;
+  color: transparent !important;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover,
+.splash .favorite li:nth-of-type(2n+2) a:hover {
+  background: #F6EDDC !important;
+  color: #593423 !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 8px rgba(91, 67, 60, 0.18) !important;
+}
+
+.splash .favorite li:nth-of-type(2n+1) a:hover::before,
+.splash .favorite li:nth-of-type(2n+2) a:hover::before {
+  content: "" !important;
+  display: inline-block !important;
+  width: 16px !important;
+  height: 16px !important;
+  margin-right: 6px !important;
+  vertical-align: -2px !important;
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0898.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+  text-shadow: none !important;
+  color: transparent !important;
+}
+
+.news.index.group li.post.group {
+  background: rgba(255, 248, 231, 0.5) !important;
+  background-color: rgba(255, 248, 231, 0.5) !important;
+  border: none !important;
+  border-top: 1px solid rgba(255, 248, 231, 0.88) !important;
+  border-left: 1px solid rgba(255, 248, 231, 0.62) !important;
+  border-radius: 18px !important;
+  padding: .75em 1em !important;
+  margin-bottom: 2em !important;
+  box-shadow: 0px 8px 24px rgba(44, 82, 52, 0.06) !important;
+  overflow: visible !important;
+}
+
+.notice,
+.comment_notice,
+.kudos_notice,
+ul.notes,
+.caution,
+.error,
+.comment_error,
+.kudos_error,
+.alert.flash,
+.LV_invalid {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border-radius: 8px !important;
+  border: none !important;
+  box-shadow: 0px 0px 10px rgba(239, 217, 204, 0.28) !important;
+  padding: 1em;
+  color: #593423;
+}
+
+#kudos_message.kudos_error,
+#kudos_message.notice {
+  font-size: 1pt;
+  color: transparent !important;
+  background: rgba(255, 248, 231, 0.5) !important;
+  background-image: none !important;
+  border: 2px solid #F6EDDC !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 4px 12px rgba(91, 67, 60, 0.15) !important;
+  padding: 0.5em !important;
+  position: relative;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+#kudos_message.notice::before {
+  content: "✨ Magic has been cast! Thank you for your love. 🌿";
+  font-size: 14pt !important;
+  color: #593423 !important;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: bold;
+  padding: 1em;
+  display: block;
+}
+
+#kudos_message.kudos_error::before {
+  content: "🔮 You have already cast this spell! (Kudos already left) 🌿";
+  font-size: 14pt !important;
+  color: #593423 !important;
+  font-family: "Georgia", "Times New Roman", serif;
+  font-weight: bold;
+  padding: 1em;
+  display: block;
+}
+
+#kudos_message.kudos_error > *,
+#kudos_message.notice > * {
+  position: absolute !important;
+  left: -9999px !important;
+  top: -9999px !important;
+}
+
+.actions a,
+.actions a:link,
+.action,
+.action:link,
+.actions button,
+.actions input,
+input[type="submit"],
+button,
+.current,
+.actions label {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 5px rgba(239, 217, 204, 0.22) !important;
+  color: #593423 !important;
+}
+
+.actions a:hover,
+.actions button:hover,
+.actions input:hover,
+.actions a:focus,
+.actions button:focus,
+.actions input:focus,
+label.action:hover,
+.action:hover,
+.action:focus {
+  background: rgba(255, 248, 231, 0.78) !important;
+  color: #593423 !important;
+  border: none !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.current,
+a.current,
+a:link.current,
+.current a:visited {
+  background: #F6EDDC !important;
+  color: #593423 !important;
+  border: none !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+.actions a:active,
+.actions button:active,
+.actions input:active {
+  background: #FFFBF0 !important;
+  color: #593423 !important;
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+fieldset,
+fieldset dl dl,
+fieldset fieldset fieldset,
+fieldset fieldset dl dl,
+dd.hideme,
+form blockquote.userstuff {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+form.verbose legend,
+.verbose form legend {
+  background: rgba(255, 248, 231, 0.5) !important;
+  color: #593423 !important;
+  padding: 5px 10px;
+}
+
+fieldset.warnings,
+fieldset fieldset {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 6px rgba(239, 217, 204, 0.18) !important;
+}
+
+form.filters fieldset {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border: 2px solid #F6EDDC !important;
+  border-radius: 12px !important;
+  box-shadow: 0px 4px 10px rgba(91, 67, 60, 0.12) !important;
+  padding: 15px !important;
+  margin-bottom: 20px !important;
+}
+
+.filters dl {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.filtering .filters #leave_filters {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.filters dt {
+  border-bottom: 1px solid #F6EDDC !important;
+  padding-bottom: 5px !important;
+  margin-top: 10px !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+.autocomplete div.dropdown ul,
+.search [role="tooltip"] {
+  border: none !important;
+}
+
+.footnote,
+p.character_counter {
+  color: #593423;
+}
+
+.autocomplete.dropdown {
+  background: transparent;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+.autocomplete.dropdown p.notice {
+  background: rgba(255, 248, 231, 0.96) !important;
+  padding: 6px 10px !important;
+  color: #593423 !important;
+  border: 1px solid rgba(255, 248, 231, 0.88) !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 4px 12px rgba(44, 82, 52, 0.08) !important;
+}
+
+.required,
+.error,
+.alert.flash,
+label,
+dt.notes {
+  color: #593423;
+}
+
+form.verbose legend,
+.verbose form legend {
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 8px rgba(239, 217, 204, 0.28) !important;
+}
+
+span.question {
+  background: rgba(255, 248, 231, 0.8) !important;
+  border: 1px solid rgba(107, 63, 42, 0.18) !important;
+  box-shadow: 0 1px 2px rgba(107, 63, 42, 0.08) !important;
+  border-radius: 3px !important;
+  display: inline-block !important;
+  width: 14px !important;
+  height: 14px !important;
+  vertical-align: middle !important;
+  transform: rotate(45deg) !important;
+  position: relative !important;
+  color: transparent !important;
+  font-size: 0 !important;
+  overflow: hidden !important;
+}
+
+span.question::after {
+  content: "?" !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) rotate(-45deg) !important;
+  color: #8C5A3C !important;
+  font-family: "Playfair Display", "Garamond", "Georgia", serif !important;
+  font-size: 10px !important;
+  font-style: italic !important;
+  line-height: 1 !important;
+}
+
+input[type="checkbox"],
+.actions li label input[type="checkbox"] {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  background: rgba(255, 248, 231, 0.7) !important;
+  border: 1px solid rgba(107, 63, 42, 0.3) !important;
+  width: 16px !important;
+  height: 16px !important;
+  border-radius: 4px !important;
+  box-shadow: 0 1px 2px rgba(107, 63, 42, 0.08) !important;
+  margin-right: 6px !important;
+  vertical-align: middle !important;
+  cursor: pointer !important;
+  position: relative !important;
+  display: inline-block !important;
+  flex-shrink: 0 !important;
+}
+
+input[type="checkbox"]:checked,
+.actions li label input[type="checkbox"]:checked {
+  background: #8C5A3C !important;
+  border-color: #6B3F2A !important;
+  box-shadow: 0 1px 3px rgba(107, 63, 42, 0.2) !important;
+}
+
+input[type="checkbox"]:checked::after,
+.actions li label input[type="checkbox"]:checked::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 4px !important;
+  top: 1px !important;
+  width: 5px !important;
+  height: 9px !important;
+  border: solid #FFF8E7 !important;
+  border-width: 0 2px 2px 0 !important;
+  transform: rotate(45deg) !important;
+}
+
+input[type="checkbox"]:hover {
+  border-color: rgba(107, 63, 42, 0.5) !important;
+  box-shadow: 0 1px 3px rgba(107, 63, 42, 0.15) !important;
+}
+
+input[type=radio] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+  background: rgba(255, 248, 231, 0.62) !important;
+  border: none !important;
+  width: 12px;
+  height: 12px;
+  border-radius: 50% !important;
+  margin-right: 5px;
+  box-shadow: 0px 0px 2px rgba(239, 217, 204, 0.18) !important;
+}
+
+input[type=radio]:checked {
+  border: none !important;
+  box-shadow: 0px 0px 4px rgba(239, 217, 204, 0.22) !important;
+}
+
+.filters .indicator:before {
+  background: #593423;
+  border: none !important;
+  background-image: none;
+  border-radius: 4px !important;
+  box-shadow: 0px 0px 2px rgba(239, 217, 204, 0.18) !important;
+}
+
+.filters [type="checkbox"]:checked + .indicator:before,
+.filters .exclude [type="checkbox"]:checked + .indicator:before {
+  background: #593423;
+  background-image: none;
+  color: rgba(255, 241, 231, 0.92);
+  border-radius: 4px !important;
+  box-shadow: 0px 0px 4px rgba(239, 217, 204, 0.22) !important;
+}
+
+.filters [type="radio"]:checked + .indicator:before {
+  background: #593423;
+  background-image: none;
+  box-shadow: 0px 0px 4px rgba(239, 217, 204, 0.22) !important;
+}
+
+.filters .expander,
+.filters .expanded .expander {
+  background: transparent !important;
+  color: #593423 !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 2px rgba(239, 217, 204, 0.18) !important;
+}
+
+.filters .more dd.search,
+dd.autocomplete li.input {
+  max-width: 10.7em;
+}
+
+.resp-sharing-button--bluesky,
+.resp-sharing-button--tumblr {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 5px rgba(239, 217, 204, 0.22) !important;
+}
+
+.toggled form,
+.dynamic form,
+div.dynamic,
+#bookmark-form form,
+form#new_bookmark {
+  background: transparent;
+  border: none !important;
+  outline: none !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+#bookmark-form.post.bookmark form fieldset h4.heading {
+  color: #593423;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  background: rgba(255, 248, 231, 0.5) !important;
+  padding: 5px 10px;
+}
+
+.dynamic form p.footnote {
+  margin-bottom: 1em;
+}
+
+li.blurb .user,
+li.blurb .user.module {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  color: #593423 !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 8px !important;
+  padding: 5px !important;
+}
+
+.status .count {
+  display: inline-block !important;
+  width: 24px !important;
+  height: 24px !important;
+  line-height: 24px !important;
+  padding: 0 !important;
+  text-indent: 0 !important;
+  font-size: 14px !important;
+  text-align: center !important;
+  border: none !important;
+  border-radius: 3px !important;
+  background: #F6EDDC !important;
+  color: #593423 !important;
+  box-shadow: 0px 0px 2px rgba(239, 217, 204, 0.18) !important;
+}
+
+.reading h4.viewed {
+  background: rgba(255, 248, 231, 0.62);
+  border: none !important;
+  border-radius: 8px !important;
+  padding: .5em;
+  margin: .5em;
+  box-shadow: 0px 0px 8px rgba(239, 217, 204, 0.28) !important;
+}
+
+dl.index dd {
+  background: transparent;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+dl.subscription.index.group {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 6px rgba(239, 217, 204, 0.22) !important;
+}
+
+#main.users-edit.dashboard.region dl,
+#main.pseuds-edit.dashboard.region dl,
+#main.users-change_username.dashboard.region dl,
+#main.users-change_password.dashboard.region dl,
+#main.users-change_email.dashboard.region dl,
+dl.meta,
+form dl {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 10px rgba(239, 217, 204, 0.28) !important;
+}
+
+.wrapper {
+  background: transparent;
+  box-shadow: none;
+  max-width: 100% !important;
+  margin: 0 auto !important;
+  border-radius: 8px !important;
+}
+
+.bio.module {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 1em;
+  width: 97%;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 10px rgba(239, 217, 204, 0.28) !important;
+  background: rgba(255, 248, 231, 0.5) !important;
+}
+
+.bio.module h3.heading {
+  visibility: hidden;
+}
+
+.bio.module h3.heading::before {
+  visibility: visible;
+  content: " A note from the user:";
+  font-size: 150%;
+  text-decoration: underline;
+}
+
+.comment div.icon {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border-bottom: none !important;
+  border-radius: 8px 0px 0px 0px !important;
+  box-shadow: 0px 0px 4px rgba(239, 217, 204, 0.18) !important;
+}
+
+div.comment {
+  border: none;
+}
+
+li.comment {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 8px rgba(239, 217, 204, 0.28) !important;
+  margin: 1em auto !important;
+  max-width: 1200px !important;
+}
+
+.comment div.icon,
+.comment h4.byline {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-bottom: none !important;
+}
+
+.thread .even {
+  background: transparent !important;
+  border: none !important;
+}
+
+.comment .userstuff {
+  padding: 1em 0 !important;
+  margin: 0 !important;
+  width: auto !important;
+}
+
+.thread .even {
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 4px rgba(239, 217, 204, 0.18) !important;
+}
+
+ol.comment.index.group .read {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 4px rgba(239, 217, 204, 0.18) !important;
+}
+
+ol.comment.index.group .unread {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 6px rgba(239, 217, 204, 0.22) !important;
+}
+
+.replied {
+  border: none !important;
+  border-radius: 8px !important;
+  background: #593423 !important;
+  color: rgba(255, 241, 231, 0.92) !important;
+  box-shadow: 0px 0px 8px rgba(239, 217, 204, 0.28) !important;
+}
+
+span.unread {
+  border: none !important;
+  border-radius: 8px !important;
+  background: #593423 !important;
+  color: rgba(255, 241, 231, 0.92) !important;
+  box-shadow: 0px 0px 8px rgba(239, 217, 204, 0.28) !important;
+}
+
+.draft {
+  border: none !important;
+  background: transparent;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 6px rgba(239, 217, 204, 0.22) !important;
+}
+
+.draft.work .wrapper {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 8px rgba(239, 217, 204, 0.28) !important;
+}
+
+#previewpane fieldset {
+  border: none;
+  box-shadow: none;
+  background: none;
+  border-radius: 8px !important;
+}
+
+.child,
+.unwrangled,
+.unreviewed {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 6px rgba(239, 217, 204, 0.22) !important;
+}
+
+.ui-sortable li {
+  background: transparent;
+  border: transparent;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+.ui-sortable li:hover {
+  background: rgba(255, 248, 231, 0.62);
+  border: none;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 5px rgba(239, 217, 204, 0.22) !important;
+}
+
+#stat_chart svg rect:first-of-type {
+  filter: opacity(0%);
+  border-radius: 8px !important;
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(1),
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(2),
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(3),
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(4),
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect:nth-of-type(5),
+#stat_chart svg g:nth-of-type(2) > g rect:last-of-type {
+  filter: brightness(0) saturate(100%) invert(17%) sepia(18%) saturate(1843%) hue-rotate(346deg) brightness(93%) contrast(90%) !important;
+  -webkit-filter: brightness(0) saturate(100%) invert(17%) sepia(18%) saturate(1843%) hue-rotate(346deg) brightness(93%) contrast(90%) !important;
+  border-radius: 4px !important;
+  box-shadow: 0px 0px 2px rgba(239, 217, 204, 0.18) !important;
+}
+
+#stat_chart svg text {
+  font-family: "Century Gothic", Arial, sans-serif;
+  filter: invert(100%);
+}
+
+.listbox {
+  margin-top: 2em;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 8px rgba(239, 217, 204, 0.28) !important;
+}
+
+.statistics .index li:nth-of-type(2n) {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 4px rgba(239, 217, 204, 0.18) !important;
+}
+
+table {
+  background: rgba(255, 248, 231, 0.5) !important;
+  margin: 0 auto !important;
+  max-width: 100% !important;
+  border-radius: 8px !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  box-shadow: 0px 0px 8px rgba(239, 217, 204, 0.28) !important;
+}
+
+thead {
+  background: rgba(255, 248, 231, 0.5) !important;
+  color: #593423;
+  font-weight: bold;
+  font-size: 120%;
+  border-bottom: none !important;
+  box-shadow: 0px 2px 4px rgba(239, 217, 204, 0.18) !important;
+}
+
+th,
+tr,
+td {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border-radius: 4px !important;
+  box-shadow: 0px 0px 2px rgba(239, 217, 204, 0.12) !important;
+}
+
+th:first-child {
+  border-top-left-radius: 8px !important;
+}
+
+th:last-child {
+  border-top-right-radius: 8px !important;
+}
+
+tr:last-child td:first-child {
+  border-bottom-left-radius: 8px !important;
+}
+
+tr:last-child td:last-child {
+  border-bottom-right-radius: 8px !important;
+}
+
+span.requested.offered {
+  color: #593423;
+  background: rgba(255, 248, 231, 0.5) !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 4px rgba(239, 217, 204, 0.18) !important;
+}
+
+span.requested {
+  color: #593423;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 4px rgba(239, 217, 204, 0.18) !important;
+}
+
+.mystery.header.picture.module {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 8px !important;
+  position: relative !important;
+  display: block !important;
+  min-height: 68px !important;
+  padding-left: 80px !important;
+  text-align: left !important;
+}
+
+.mystery.header.picture.module h4,
+.mystery.header.picture.module h5,
+.mystery.header.picture.module p,
+.mystery.header.picture.module .heading,
+.mystery.header.picture.module > * {
+  text-align: left !important;
+  margin-left: 0 !important;
+}
+
+.mystery.header.picture.module div.icon {
+  position: absolute !important;
+  left: 8px !important;
+  top: 8px !important;
+  width: 60px !important;
+  height: 60px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background: #FFFBF0 !important;
+  background-image: none !important;
+  border-radius: 8px !important;
+  border: 1px solid rgba(255, 255, 255, 0.8) !important;
+  box-shadow: 0 2px 6px rgba(107, 63, 42, 0.12),
+    0 1px 2px rgba(107, 63, 42, 0.08) !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  z-index: 10 !important;
+}
+
+.mystery.header.picture.module div.icon::after {
+  content: "?";
+  color: #B89B7A !important;
+  font-size: 36px !important;
+  font-family: "Georgia", serif;
+  font-weight: bold !important;
+}
+
+.mystery.header.picture.module div.icon img {
+  display: none !important;
+}
+
+div.preface .module {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 8px !important;
+}
+
+#dashboard a {
+  color: #593423;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 4px rgba(239, 217, 204, 0.18) !important;
+}
+
+#dashboard .current {
+  background: #F6EDDC !important;
+  color: #593423 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  font-weight: bold !important;
+}
+
+#dashboard a:hover {
+  background: #C7D1B5 !important;
+  color: #593423 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+#header ul.primary,
+#header .primary a,
+#header .primary input,
+#header .search input {
+  border-color: transparent !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 4px rgba(239, 217, 204, 0.18) !important;
+}
+
+#main .dashboard,
+#main .dashboard fieldset,
+#main .dashboard dl,
+#main .dashboard hr {
+  border: none !important;
+  box-shadow: none !important;
+  background-image: none !important;
+  background: transparent !important;
+  border-radius: 8px !important;
+}
+
+#main .dashboard .listbox,
+#main .dashboard .user.module {
+  border: none !important;
+  background: transparent !important;
+  border-radius: 8px !important;
+  padding: 15px !important;
+  box-shadow: none !important;
+}
+
+#main .dashboard .primary .navigation {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  border-top: 5px solid transparent !important;
+  border-bottom: 5px solid transparent !important;
+  border-radius: 8px !important;
+}
+
+dl.stats dt {
+  display: none;
+}
+
+dl.stats dd.language::before {
+  display: none !important;
+}
+
+dl.stats dd.published::before,
+dl.stats dd.status::before {
+  width: 0px;
+  margin-right: 0px;
+}
+
+ul.statistics dl.stats dd::before,
+li.work dl.stats dd::before,
+li.bookmark dl.stats dd::before,
+dl.work dl.stats dd::before,
+.collection dl.stats dd a[href$=collections]::before,
+li.collection dl.stats dd a[href$=works]::before,
+li.collection dl.stats dd a[href$=bookmarks]::before,
+li.collection dl.stats dd a[href$=fandoms]::before,
+li.series dl.stats dd:not(.language):not(.words):not(.chapters):not(.collections):not(.comments):not(.kudos):not(.bookmarks):not(.hits):not(.published):not(.subscriptions):nth-of-type(1)::before,
+li:not(.collection) dl.stats dd:not(.language):not(.words):not(.chapters):not(.collections):not(.comments):not(.kudos):not(.bookmarks):not(.hits):not(.published):not(.subscriptions):nth-of-type(2)::before,
+dl.stats dd:not(.bookmarks) a[href$=bookmarks]::before {
+  display: inline-block;
+  width: 20px !important;
+  height: 20px !important;
+  content: " ";
+  background-size: 20px 20px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  margin-right: 6px !important;
+  filter: brightness(0) saturate(100%) invert(17%) sepia(18%) saturate(1843%) hue-rotate(346deg) brightness(93%) contrast(90%) !important;
+  -webkit-filter: brightness(0) saturate(100%) invert(17%) sepia(18%) saturate(1843%) hue-rotate(346deg) brightness(93%) contrast(90%) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+dl.stats dd:nth-of-type(1)::before {
+  background: url(https://lovewithless.github.io/-beta1.0/icon/IMG_0921.PNG);
+}
+
+dl.stats dd:nth-of-type(2)::before {
+  background: url(https://lovewithless.github.io/-beta1.0/icon/IMG_0913.PNG);
+}
+
+dl.stats dd.kudos::before {
+  background: url(https://lovewithless.github.io/-beta1.0/icon/IMG_0904.PNG);
+}
+
+dl.stats dd.words::before {
+  background: url(https://lovewithless.github.io/-beta1.0/icon/IMG_0901.PNG);
+}
+
+dl.stats dd.chapters::before {
+  background: url(https://lovewithless.github.io/-beta1.0/icon/IMG_0908.PNG);
+}
+
+dl.stats dd.comments::before {
+  background: url(https://lovewithless.github.io/-beta1.0/icon/IMG_0910.PNG);
+}
+
+dl.stats dd.bookmarks::before,
+dl.stats dd a[href$=bookmarks]::before {
+  background: url(https://lovewithless.github.io/-beta1.0/icon/IMG_0909.PNG);
+}
+
+dl.stats dd.hits::before {
+  background: url(https://lovewithless.github.io/-beta1.0/icon/IMG_0906.PNG);
+}
+
+dl.stats dd.collections::before {
+  background: url(https://lovewithless.github.io/-beta1.0/icon/IMG_0905.PNG);
+}
+
+dl.work dl.stats dd.published::before {
+  background: url(https://lovewithless.github.io/-beta1.0/icon/IMG_0902.PNG);
+}
+
+dl.work dl.stats dd.status::before {
+  background: url(https://lovewithless.github.io/-beta1.0/icon/IMG_0902.PNG);
+}
+
+ul.statistics dl.stats dd.subscriptions::before {
+  background: url(https://lovewithless.github.io/-beta1.0/icon/IMG_0915.PNG);
+}
+
+li.collection dl.stats dd a[href$=collections]::before {
+  background: url(https://lovewithless.github.io/-beta1.0/icon/IMG_0905.PNG);
+}
+
+li.collection dl.stats dd a[href$=works]::before {
+  background: url(https://lovewithless.github.io/-beta1.0/icon/IMG_0917.PNG);
+}
+
+li.collection dl.stats dd a[href$=bookmarks]::before {
+  background: url(https://lovewithless.github.io/-beta1.0/icon/IMG_0909.PNG);
+}
+
+li.collection dl.stats dd a[href$=fandoms]::before {
+  background: url(https://lovewithless.github.io/-beta1.0/icon/IMG_0920.PNG) !important;
+}
+
+.listbox,
+fieldset fieldset.listbox {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 15px !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.listbox .index {
+  background: transparent !important;
+  box-shadow: none;
+  border: none !important;
+  border-radius: 8px !important;
+}
+
+.listbox > .heading {
+  font-variant: small-caps;
+  color: #593423;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 4px rgba(239, 217, 204, 0.18) !important;
+}
+
+ol.index:not(.listbox) > li.blurb .wrapper,
+ol.index:not(.listbox) > li.blurb .userstuff {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.listbox li.blurb {
+  border-image: none !important;
+  border: 1px solid rgba(107, 63, 42, 0.12) !important;
+  background: transparent !important;
+  padding: 0.75em !important;
+  border-radius: 3px !important;
+}
+
+ul.tags li.warnings,
+ul.tags li.relationships,
+ul.tags li.characters,
+ul.tags li.freeforms {
+  width: 100% !important;
+  margin: 0 0 6px 0 !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+
+li.warnings + li.relationships,
+li.relationships + li.characters,
+li.characters + li.freeforms,
+li.warnings + li.characters,
+li.warnings + li.freeforms,
+li.relationships + li.freeforms {
+  clear: left;
+}
+
+ul.tags li {
+  margin: 0;
+  border-radius: 8px !important;
+}
+
+a.tag,
+a.tag:visited,
+a.tag:link,
+li.added.tag {
+  display: inline-block;
+  padding: 2px 8px !important;
+  margin: 1px 1px 1px 1px !important;
+  border-radius: 6px !important;
+  border: none !important;
+  background: transparent !important;
+  color: #593423 !important;
+  position: relative !important;
+  overflow: visible !important;
+  transition: all 0.2s ease !important;
+  font-size: 11px !important;
+  line-height: 1.4 !important;
+  box-shadow: none !important;
+}
+
+ul.tags li a.tag {
+  line-height: 1.4 !important;
+}
+
+.warnings .tag,
+dd.warning a.tag,
+.blurb .warnings a.tag {
+  background: transparent !important;
+  color: #593423 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 2px 6px !important;
+  box-shadow: none !important;
+}
+
+.relationships .tag,
+dd.relationship a.tag,
+.blurb .relationships a.tag {
+  background: transparent !important;
+  color: #593423 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 2px 6px !important;
+  box-shadow: none !important;
+}
+
+.characters .tag,
+dd.character a.tag,
+.blurb .characters a.tag {
+  background: transparent !important;
+  color: #593423 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 2px 6px !important;
+  box-shadow: none !important;
+}
+
+.freeforms .tag,
+dd.freeform a.tag,
+.blurb .freeforms a.tag {
+  background: transparent !important;
+  color: #593423 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  padding: 2px 6px !important;
+  box-shadow: none !important;
+}
+
+dd.rating a.tag {
+  background: transparent !important;
+  color: #593423 !important;
+  border-radius: 8px !important;
+  padding: 2px 6px !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+dd.category a.tag {
+  background: transparent !important;
+  color: #593423 !important;
+  border-radius: 8px !important;
+  padding: 2px 6px !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.warnings .tag:hover,
+dd.warning a.tag:hover,
+.relationships .tag:hover,
+dd.relationship a.tag:hover,
+.characters .tag:hover,
+dd.character a.tag:hover,
+.freeforms .tag:hover,
+dd.freeform a.tag:hover {
+  filter: brightness(1.1);
+  transform: scale(1.02);
+  opacity: 1 !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  z-index: 10;
+}
+
+#main .blurb a.tag:active,
+#main .blurb a.tag:focus {
+  background: transparent !important;
+  color: #6B3F2A !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  padding-left: 28px !important;
+  padding-right: 28px !important;
+  font-size: 11px !important;
+  transform: translateY(1px) !important;
+}
+
+#main .blurb a.tag:active::before,
+#main .blurb a.tag:focus::before {
+  content: "° ₊ ʚ" !important;
+  position: absolute !important;
+  left: 6px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  font-size: 12px !important;
+  padding-right: 8px !important;
+}
+
+#main .blurb a.tag:active::after,
+#main .blurb a.tag:focus::after {
+  content: "ɞ ₊ °" !important;
+  position: absolute !important;
+  right: 6px !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  font-size: 12px !important;
+  padding-left: 8px !important;
+}
+
+ul.tags li.warnings::before,
+ul.tags li.relationships::before,
+ul.tags li.characters::before,
+ul.tags li.freeforms::before,
+ul.tags li.warnings:first-child::before,
+li.warnings + li.relationships::before,
+li.relationships + li.characters::before,
+li.characters + li.freeforms::before,
+li.warnings + li.characters::before,
+li.warnings + li.freeforms::before,
+li.relationships + li.freeforms::before {
+  margin-top: 4px !important;
+}
+
+ul.tags li.warnings:first-child:before {
+  content: "Archive Warnings:" !important;
+  display: block !important;
+  color: #593423 !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  font-family: "Playfair Display", "Garamond", "Georgia", serif !important;
+  line-height: 1.4 !important;
+  margin-bottom: 6px !important;
+  padding-left: 20px !important;
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0897.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  background-size: 15px 15px !important;
+}
+
+li.warnings + li.relationships:before {
+  content: "Relationships:" !important;
+  display: block !important;
+  color: #593423 !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  font-family: "Playfair Display", "Garamond", "Georgia", serif !important;
+  line-height: 1.4 !important;
+  margin-bottom: 6px !important;
+  padding-left: 20px !important;
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0899.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  background-size: 15px 15px !important;
+}
+
+li.relationships + li.characters:before {
+  content: "Characters:" !important;
+  display: block !important;
+  color: #593423 !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  font-family: "Playfair Display", "Garamond", "Georgia", serif !important;
+  line-height: 1.4 !important;
+  margin-bottom: 6px !important;
+  padding-left: 20px !important;
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0897.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  background-size: 15px 15px !important;
+}
+
+li.characters + li.freeforms:before {
+  content: "Additional Tags:" !important;
+  display: block !important;
+  color: #593423 !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  font-family: "Playfair Display", "Garamond", "Georgia", serif !important;
+  line-height: 1.4 !important;
+  margin-bottom: 6px !important;
+  padding-left: 20px !important;
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0899.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  background-size: 15px 15px !important;
+}
+
+li.warnings + li.characters:before {
+  content: "Characters:" !important;
+  display: block !important;
+  color: #593423 !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  font-family: "Playfair Display", "Garamond", "Georgia", serif !important;
+  line-height: 1.4 !important;
+  margin-bottom: 6px !important;
+  padding-left: 20px !important;
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0897.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  background-size: 15px 15px !important;
+}
+
+li.warnings + li.freeforms:before {
+  content: "Additional Tags:" !important;
+  display: block !important;
+  color: #593423 !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  font-family: "Playfair Display", "Garamond", "Georgia", serif !important;
+  line-height: 1.4 !important;
+  margin-bottom: 6px !important;
+  padding-left: 20px !important;
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0899.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  background-size: 15px 15px !important;
+}
+
+li.relationships + li.freeforms:before {
+  content: "Additional Tags:" !important;
+  display: block !important;
+  color: #593423 !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  font-family: "Playfair Display", "Garamond", "Georgia", serif !important;
+  line-height: 1.4 !important;
+  margin-bottom: 6px !important;
+  padding-left: 20px !important;
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0897.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: left center !important;
+  background-size: 15px 15px !important;
+}
+
+h2 a.tag {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+h5.fandoms.heading a.tag {
+  border: none !important;
+  box-shadow: none !important;
+  padding-left: 6px !important;
+  padding-right: 6px !important;
+}
+
+h5.fandoms.heading a.tag::before,
+h5.fandoms.heading a.tag::after {
+  content: "" !important;
+}
+
+.commas li:after {
+  content: "" !important;
+}
+
+.blurb ul.required-tags li .rating,
+.blurb ul.required-tags li .category,
+.blurb ul.required-tags li .warnings,
+.blurb ul.required-tags li .iswip {
+  border: none !important;
+  box-shadow: 0px 0px 2px rgba(239, 217, 204, 0.18) !important;
+  border-radius: 3px !important;
+  width: 24px !important;
+  height: 24px !important;
+  display: inline-block !important;
+  position: relative !important;
+  overflow: hidden !important;
+}
+
+.blurb ul.required-tags li span .text {
+  position: absolute !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
+
+#workskin h2.title {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  white-space: normal !important;
+  line-height: 1.2 !important;
+  max-width: 1100px !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+  word-spacing: normal !important;
+  letter-spacing: normal !important;
+}
+
+#workskin h3.byline {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 1.5em !important;
+}
+
+html body #main #kudos {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border: none !important;
+  border-top: 1px solid rgba(255, 248, 231, 0.88) !important;
+  border-left: 1px solid rgba(255, 248, 231, 0.62) !important;
+  border-radius: 18px !important;
+  box-shadow: 0px 8px 24px rgba(44, 82, 52, 0.06) !important;
+  padding: 16px 18px !important;
+  margin: 20px auto !important;
+  max-width: 900px !important;
+  background-image: none !important;
+  height: auto !important;
+  overflow: hidden !important;
+  word-break: break-word !important;
+  position: relative !important;
+}
+
+html body #main #kudos .kudos::before {
+  content: "" !important;
+  display: block !important;
+  float: left !important;
+  width: 80px !important;
+  height: 80px !important;
+  margin-right: 15px !important;
+  margin-bottom: -6px !important;
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0903.PNG") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  filter: brightness(0) saturate(100%) invert(17%) sepia(18%) saturate(1843%) hue-rotate(346deg) brightness(93%) contrast(90%) !important;
+  -webkit-filter: brightness(0) saturate(100%) invert(17%) sepia(18%) saturate(1843%) hue-rotate(346deg) brightness(93%) contrast(90%) !important;
+  opacity: 0.95 !important;
+}
+
+html body #main fieldset.kudos,
+html body #main #kudos .kudos,
+html body #main #kudos p.kudos {
+  background: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #593423 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  max-width: none !important;
+  text-align: left !important;
+  line-height: 1.8 !important;
+  border-radius: 0 !important;
+}
+
+html body #main #kudos a,
+html body #main #kudos a:visited {
+  color: #593423 !important;
+  text-decoration: none !important;
+  border-bottom: 1px dotted #DCC9AE !important;
+}
+
+html body #main #kudos a:hover,
+html body #main #kudos a:active {
+  color: #8C5A3C !important;
+  background: #F6EDDC !important;
+  text-decoration: none !important;
+  border-bottom: 1px dotted #DCC9AE !important;
+}
+
+.pagination .current {
+  background: #F6EDDC !important;
+  color: #593423 !important;
+  border: none !important;
+  font-weight: bold !important;
+  border-radius: 6px !important;
+  box-shadow: none !important;
+}
+
+.pagination li a,
+.pagination li a:link,
+.pagination li a:visited {
+  background: rgba(255, 248, 231, 0.5) !important;
+  color: #593423 !important;
+  border: none !important;
+  border-radius: 6px !important;
+  box-shadow: 0px 0px 4px rgba(239, 217, 204, 0.28) !important;
+}
+
+.pagination li a:hover,
+.pagination li a:focus,
+.pagination li a:active {
+  background: rgba(255, 248, 231, 0.78) !important;
+  color: #593423 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#main .actions li a.rss img {
+  display: none !important;
+}
+
+#main .actions li a.rss {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center;
+  column-gap: 6px;
+  background-image: none !important;
+  background-color: rgba(255, 248, 231, 0.5) !important;
+  border: none !important;
+  color: #593423 !important;
+  font-size: 1em !important;
+  text-indent: 0 !important;
+  width: auto !important;
+  white-space: nowrap;
+  padding: 0.25em 0.75em !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 5px rgba(239, 217, 204, 0.22) !important;
+}
+
+#main .actions li a.rss::before {
+  content: "";
+  display: block;
+  width: 12px;
+  height: 12px;
+  background-image: url("https://i.ibb.co/35VLs1PW/zerafina-icon-rss-01.png");
+  background-size: cover;
+  background-color: #C7D1B5 !important;
+  border: none !important;
+  border-radius: 2px;
+  flex-shrink: 0;
+  box-shadow: 0px 0px 2px rgba(239, 217, 204, 0.18) !important;
+}
+
+#main .actions li a.rss span {
+  background: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.userstuff hr {
+  border: none;
+  width: auto;
+  text-align: center;
+}
+
+.userstuff hr:before {
+  content: "ʚ🍏✧🍏✧🍏✧🍏✧🍏✧🍏ɞ";
+  display: block;
+  color: #593423;
+  letter-spacing: 2px;
+}
+
+form dt {
+  border-bottom: none;
+}
+
+input,
+textarea,
+select {
+  background: rgba(255, 251, 247, 0.78) !important;
+  color: #593423 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 5px rgba(239, 217, 204, 0.22) !important;
+  padding-left: .5em;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+.autocomplete div.dropdown ul,
+.search [role="tooltip"] {
+  background: rgba(255, 255, 255, 0.95) !important;
+  color: #593423 !important;
+  border-radius: 8px !important;
+  padding-left: .5em;
+  outline: none;
+  box-shadow: 0px 0px 8px rgba(239, 217, 204, 0.28) !important;
+}
+
+.actions a:visited,
+.actions button:visited,
+.actions input[type="submit"]:visited {
+  color: #593423 !important;
+}
+
+#outer::before {
+  background-attachment: fixed !important;
+}
+
+#main .blurb a:visited,
+#main .work a:visited {
+  color: #5F7357;
+}
+
+#dashboard {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border: 2px solid transparent !important;
+  border-top: 2px solid transparent !important;
+  border-bottom: 2px solid transparent !important;
+  border-radius: 25px !important;
+  box-shadow: 0px 0px 10px rgba(239, 217, 204, 0.28) !important;
+  padding: 10px 15px !important;
+  margin-bottom: 20px !important;
+}
+
+#dashboard ul {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+#dashboard.own,
+.dashboard .own {
+  background: rgba(255, 248, 231, 0.5) !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 25px !important;
+  padding: 10px 15px !important;
+}
+
+#workskin::before {
+  content: none !important;
+  display: none !important;
+  border: none !important;
+}
+
+div.preface,
+div.preface .module,
+div.preface fieldset,
+div.preface blockquote.userstuff {
+  max-width: 100% !important;
+  width: auto !important;
+  float: none !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+#workskin > .userstuff {
+  max-width: 900px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: left !important;
+  padding: 0 !important;
+  font-size: 100% !important;
+}
+
+.blurb .userstuff,
+.comment .userstuff {
+  max-width: 100% !important;
+  margin: 1em 0 !important;
+}
+
+#header ul.primary > li > a,
+#header ul.primary > li > span {
+  color: #593423 !important;
+}
+
+#header ul.primary > li > a:hover,
+#header ul.primary > li:hover > a {
+  color: #8C5A3C !important;
+  background: transparent !important;
+}
+
+.statistics.modal,
+#stat_chart {
+  background: rgba(255, 245, 238, 0.88) !important;
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0935.PNG") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-blend-mode: overlay !important;
+  border-radius: 8px !important;
+}
+
+#stat_chart svg {
+  height: 100% !important;
+  min-height: 300px !important;
+}
+
+#stat_chart g[clip-path^=url] {
+  height: 100% !important;
+}
+
+#stat_chart g[clip-path^=url] > g:nth-of-type(2) rect {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.statistics.modal,
+.statistics.modal p,
+.statistics.modal span,
+.statistics.modal li,
+#stat_chart svg text {
+  color: #593423 !important;
+  font-weight: 500 !important;
+  filter: none !important;
+  opacity: 1 !important;
+}
+
+#stat_chart .tooltip {
+  background: rgba(255, 239, 231, 0.96) !important;
+  border: 1px solid #593423 !important;
+  color: #593423 !important;
+  padding: 4px 8px !important;
+}
+
+.statistics.modal .stats dl dd,
+.statistics.modal .stats dl dt {
+  visibility: visible !important;
+  display: block !important;
+}
+
+#header {
+  background: transparent !important;
+  border-bottom: none !important;
+}
+
+#header h1.heading {
+  width: 100% !important;
+  float: none !important;
+  clear: both !important;
+  margin: 0 auto 5px auto !important;
+  padding: 0 !important;
+  text-align: center !important;
+  height: auto !important;
+  order: 1 !important;
+}
+
+#header .logo,
+#header h1.heading span,
+#header h1.heading sup {
+  display: none !important;
+}
+
+#header h1.heading a::before {
+  content: none !important;
+  display: none !important;
+}
+
+#header h1.heading a {
+  display: block !important;
+  margin: 0 auto !important;
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0942.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center bottom !important;
+  background-size: contain !important;
+  height: 160px !important;
+  width: 100% !important;
+  color: transparent !important;
+  border: none !important;
+}
+
+#header .search input.text {
+  background: rgba(255, 251, 247, 0.78) !important;
+  border: none !important;
+  border-radius: 6px !important;
+  color: #593423 !important;
+  padding: 3px 8px !important;
+  font-size: 0.9em !important;
+  box-shadow: 0px 0px 3px rgba(239, 217, 204, 0.18) !important;
+}
+
+#header .search input[type="submit"] {
+  background: rgba(255, 248, 231, 0.62) !important;
+  border: none !important;
+  border-radius: 6px !important;
+  color: #593423 !important;
+  padding: 3px 8px !important;
+  font-size: 0.9em !important;
+  cursor: pointer;
+  box-shadow: 0px 0px 3px rgba(239, 217, 204, 0.18) !important;
+}
+
+#header .search input[type="submit"]:hover {
+  background: #F6EDDC !important;
+  color: #593423 !important;
+}
+
+#header ul.primary {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+#header ul.primary li {
+  border: none !important;
+}
+
+#header ul.primary li a {
+  background: transparent !important;
+  color: #593423 !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+#header ul.primary li a:hover,
+#header ul.primary li:hover > a,
+#header ul.primary li.open > a,
+#header ul.primary li a:focus {
+  background: transparent !important;
+  color: #8C5A3C !important;
+  box-shadow: none !important;
+}
+
+#greeting {
+  order: 4 !important;
+  margin-left: auto !important;
+  background: transparent !important;
+  display: flex !important;
+  align-items: center !important;
+  padding: 0 !important;
+}
+
+#greeting img.icon,
+#greeting div.icon,
+#greeting p.icon {
+  display: none !important;
+}
+
+#greeting > ul {
+  display: flex !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#greeting > ul > li {
+  margin-left: 1px !important;
+  margin-right: 1px !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+#greeting .user > li > a {
+  padding: 3px 6px !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #593423 !important;
+  font-size: 0.9em !important;
+}
+
+#greeting .user > li > a:hover {
+  background: rgba(246, 237, 220, 0.45) !important;
+  box-shadow: 0px 0px 4px rgba(239, 217, 204, 0.18) !important;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus,
+a:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+select:-moz-focusring {
+  color: transparent !important;
+  text-shadow: 0 0 0 #593423 !important;
+}
+
+ol.collection.index li.collection.blurb.group,
+li.collection.picture.blurb {
+  background: rgba(255, 248, 231, 0.5) !important;
+  background-color: rgba(255, 248, 231, 0.5) !important;
+  border: none !important;
+  border-top: 1px solid rgba(255, 248, 231, 0.88) !important;
+  border-left: 1px solid rgba(255, 248, 231, 0.62) !important;
+  border-radius: 18px !important;
+  box-shadow: 0px 8px 24px rgba(44, 82, 52, 0.06) !important;
+  padding: 15px !important;
+  margin-bottom: 20px !important;
+}
+
+li.collection.blurb .icon {
+  border: none !important;
+  background-color: transparent !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+li.collection.blurb .icon img {
+  border-radius: 8px !important;
+  display: block !important;
+}
+
+li.mystery.blurb.group {
+  background: rgba(255, 248, 231, 0.5) !important;
+  background-color: rgba(255, 248, 231, 0.5) !important;
+  border: none !important;
+  border-top: 1px solid rgba(255, 248, 231, 0.88) !important;
+  border-left: 1px solid rgba(255, 248, 231, 0.62) !important;
+  border-radius: 18px !important;
+  box-shadow: 0px 8px 24px rgba(44, 82, 52, 0.06) !important;
+  padding: 15px !important;
+  margin-bottom: 20px !important;
+}
+
+.collection li.bookmark {
+  background: rgba(255, 248, 231, 0.5) !important;
+  background-color: rgba(255, 248, 231, 0.5) !important;
+  border: none !important;
+  border-top: 1px solid rgba(255, 248, 231, 0.88) !important;
+  border-left: 1px solid rgba(255, 248, 231, 0.62) !important;
+  border-radius: 18px !important;
+  box-shadow: 0px 8px 24px rgba(44, 82, 52, 0.06) !important;
+  padding: 1em !important;
+  margin-bottom: 1.5em !important;
+}
+
+.collection li.bookmark .user {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.user.home .index li.blurb,
+.profile .index li.blurb {
+  background: rgba(255, 248, 231, 0.5) !important;
+  background-color: rgba(255, 248, 231, 0.5) !important;
+  border: none !important;
+  border-top: 1px solid rgba(255, 248, 231, 0.88) !important;
+  border-left: 1px solid rgba(255, 248, 231, 0.62) !important;
+  border-radius: 18px !important;
+  box-shadow: 0px 8px 24px rgba(44, 82, 52, 0.06) !important;
+  padding: 15px !important;
+  margin-bottom: 15px !important;
+}
+
+.user.home .index li.blurb .header,
+.profile .index li.blurb .header {
+  background: transparent !important;
+  border: none !important;
+}
+
+.filters ul {
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+.filters li {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  margin-bottom: 2px !important;
+}
+
+.filters label {
+  background: transparent !important;
+  color: #593423 !important;
+  display: inline-block !important;
+  padding: 2px 5px !important;
+  width: auto !important;
+}
+
+.filters .count {
+  background: transparent !important;
+  color: #593423 !important;
+}
+
+.filters label:hover {
+  background: #CBD8B8 !important;
+  border-radius: 4px !important;
+  cursor: pointer;
+}
+
+form.filters ul li {
+  background: transparent !important;
+  border: none !important;
+}
+
+form.filters ul li label {
+  background: transparent !important;
+  color: #593423 !important;
+  width: auto !important;
+  display: inline-block !important;
+}
+
+#main .splash .module h3,
+#main .splash .module h3.heading {
+  color: #593423 !important;
+}
+
+#main .splash .browse li a:before,
+#main .splash .browse li a::before {
+  color: #593423 !important;
+}
+
+#main .collection span.landmark ~ a.tag {
+  background: transparent !important;
+  background-color: transparent !important;
+  color: #593423 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  text-decoration: none !important;
+  transition: color .15s ease;
+}
+
+#main .collection span.landmark ~ a.tag:hover,
+#main .collection span.landmark ~ a.tag:focus,
+#main .collection span.landmark ~ a.tag:focus-visible {
+  background: transparent !important;
+  background-color: transparent !important;
+  color: #8C5A3C !important;
+  outline: none !important;
+}
+
+#main .blurb h5.fandoms a.tag {
+  background: transparent !important;
+  background-color: transparent !important;
+  color: #593423 !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  text-decoration: none !important;
+  transition: color .15s ease;
+}
+
+#main .blurb h5.fandoms a.tag:hover,
+#main .blurb h5.fandoms a.tag:focus,
+#main .blurb h5.fandoms a.tag:focus-visible {
+  background: transparent !important;
+  background-color: transparent !important;
+  color: #8C5A3C !important;
+  outline: none !important;
+}
+
+.tags-show .primary ul.tags a:hover,
+.tags-show .primary ul li a:hover,
+.tags-show .parent a:hover,
+.tags-show .synonym a:hover,
+.tags-show .merger a:hover {
+  color: #8C5A3C !important;
+  background-color: transparent !important;
+  border: none !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+}
+
+.tags-show .meta a:hover,
+.tags-show .sub a:hover {
+  color: #8C5A3C !important;
+  background-color: transparent !important;
+  border: none !important;
+  text-decoration: none !important;
+}
+
+h2.collections,
+#main h2.collections,
+body.collections #main h2.collections {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+  color: #593423 !important;
+}
+
+.listbox li.blurb,
+li.pseud.blurb,
+#main li.pseud.blurb {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+#dashboard,
+#dashboard.own,
+#dashboard:not(.own) {
+  text-align: center !important;
+}
+
+#dashboard > ul.navigation,
+#dashboard > ul.primary,
+#dashboard > ul.secondary {
+  margin: 0 auto !important;
+  padding: 0.18em 0.45em !important;
+  list-style: none !important;
+  text-align: center !important;
+}
+
+#dashboard > ul.navigation > li,
+#dashboard > ul.primary > li,
+#dashboard > ul.secondary > li {
+  display: inline-block !important;
+  float: none !important;
+  vertical-align: middle !important;
+  margin: 0.2em 0.62em !important;
+  padding: 0 !important;
+}
+
+#dashboard > ul.navigation > li > a,
+#dashboard > ul.navigation > li > span,
+#dashboard > ul.primary > li > a,
+#dashboard > ul.primary > li > span,
+#dashboard > ul.secondary > li > a,
+#dashboard > ul.secondary > li > span {
+  display: inline-block !important;
+  padding: 0.03em 0.10em !important;
+  margin: 0 !important;
+  font-size: 0.92em !important;
+  line-height: 1.25 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  text-decoration: none !important;
+}
+
+#dashboard .current::after,
+#dashboard a.current::after,
+#dashboard span.current::after,
+#dashboard li.current::after {
+  content: none !important;
+}
+
+#dashboard .current,
+#dashboard li.current,
+#dashboard li.current > a,
+#dashboard li.current > span {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#dashboard .hidden,
+#dashboard ul.secondary.hidden,
+#dashboard ul.expandable.secondary.hidden,
+#dashboard ul.navigation .expandable.secondary.hidden {
+  display: none !important;
+}
+
+#dashboard ul.expandable.secondary:not(.hidden),
+#dashboard ul.navigation .expandable.secondary:not(.hidden) {
+  display: block !important;
+}
+
+#dashboard ul.expandable.secondary,
+#dashboard ul.navigation .expandable.secondary {
+  text-align: left !important;
+  margin: 0.25em 0 0 0 !important;
+  padding: 0 !important;
+}
+
+#dashboard ul.expandable.secondary li,
+#dashboard ul.navigation .expandable.secondary li {
+  display: block !important;
+  float: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#dashboard ul.expandable.secondary li a,
+#dashboard ul.navigation .expandable.secondary li a,
+#dashboard ul.expandable.secondary li span,
+#dashboard ul.navigation .expandable.secondary li span {
+  display: block !important;
+  font-size: 1em !important;
+  line-height: 1.35 !important;
+  padding: 0.28em 0.7em !important;
+  margin: 0 !important;
+}
+
+li.chapter .secondary,
+li.download .secondary,
+.work.navigation .download .secondary {
+  min-width: 8.8em !important;
+  padding: 0.3em 0.25em !important;
+  background: rgba(255, 248, 231, 0.96) !important;
+  border: none !important;
+  border-radius: 10px !important;
+  box-shadow: 0px 4px 12px rgba(91, 67, 60, 0.15) !important;
+  background-image: none !important;
+  text-align: center !important;
+}
+
+li.chapter .secondary form,
+li.chapter .secondary fieldset,
+li.chapter .secondary p,
+li.chapter .secondary div,
+li.download .secondary li,
+.work.navigation .download .secondary li {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+li.chapter .secondary select {
+  display: block !important;
+  width: 82% !important;
+  box-sizing: border-box !important;
+  margin: 0.18em auto 0.3em auto !important;
+  padding: 0.32em 0.55em !important;
+  background: rgba(255, 251, 247, 0.78) !important;
+  color: #593423 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 5px rgba(239, 217, 204, 0.22) !important;
+  font-family: inherit !important;
+  font-size: 0.9em !important;
+  line-height: 1.15 !important;
+}
+
+li.chapter .secondary input[type="submit"],
+li.chapter .secondary button {
+  display: block !important;
+  width: 82% !important;
+  box-sizing: border-box !important;
+  margin: 0.1em auto !important;
+  padding: 0.32em 0.55em !important;
+  background: rgba(255, 248, 231, 0.62) !important;
+  color: #593423 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 5px rgba(239, 217, 204, 0.22) !important;
+  font-family: inherit !important;
+  font-size: 0.9em !important;
+  line-height: 1.1 !important;
+}
+
+li.chapter .secondary a,
+li.download .secondary a,
+.work.navigation .download .secondary a {
+  display: block !important;
+  margin: 0.08em 0.3em !important;
+  padding: 0.3em 0.5em !important;
+  background: transparent !important;
+  color: #593423 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  text-decoration: none !important;
+  line-height: 1.2 !important;
+  white-space: nowrap !important;
+  box-shadow: none !important;
+  font-size: 0.92em !important;
+}
+
+li.chapter .secondary a:hover,
+li.chapter .secondary a:focus,
+li.download .secondary a:hover,
+li.download .secondary a:focus,
+.work.navigation .download .secondary a:hover,
+.work.navigation .download .secondary a:focus,
+li.chapter .secondary input[type="submit"]:hover,
+li.chapter .secondary input[type="submit"]:focus,
+li.chapter .secondary button:hover,
+li.chapter .secondary button:focus,
+li.chapter .secondary select:focus {
+  background: #F6EDDC !important;
+  color: #593423 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+form dl dd {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="number"],
+select {
+  box-sizing: border-box !important;
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.skins li.blurb .header,
+#main.skins-index li.blurb .header,
+#main.skins-show li.blurb .header {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+}
+
+.skins li.blurb h4.heading,
+#main.skins-index li.blurb h4.heading,
+#main.skins-show li.blurb h4.heading {
+  width: 100% !important;
+  margin: 0 0 0.15em 0 !important;
+  line-height: 1.25 !important;
+}
+
+.skins li.blurb h4.heading > a:first-of-type,
+#main.skins-index li.blurb h4.heading > a:first-of-type,
+#main.skins-show li.blurb h4.heading > a:first-of-type {
+  display: block !important;
+  margin: 0 0 0.18em 0 !important;
+  line-height: 1.25 !important;
+}
+
+.skins li.blurb h4.heading .byline,
+.skins li.blurb h4.heading a[rel="author"],
+#main.skins-index li.blurb h4.heading .byline,
+#main.skins-index li.blurb h4.heading a[rel="author"],
+#main.skins-show li.blurb h4.heading .byline,
+#main.skins-show li.blurb h4.heading a[rel="author"] {
+  display: block !important;
+  margin: 0 !important;
+  line-height: 1.3 !important;
+}
+
+.skins li.blurb .datetime,
+#main.skins-index li.blurb .datetime,
+#main.skins-show li.blurb .datetime {
+  display: block !important;
+  float: none !important;
+  clear: both !important;
+  width: auto !important;
+  margin: 0.18em 0 0 0 !important;
+  text-align: left !important;
+  line-height: 1.25 !important;
+}
+
+ol.index:not(.listbox) > li.work.blurb,
+ol.index:not(.listbox) > li.bookmark.blurb,
+ol.index:not(.listbox) > li.series.blurb {
+  padding: 8px 10px 12px 10px !important;
+}
+
+li.work.blurb .header.module,
+li.bookmark.blurb .header.module,
+li.series.blurb .header.module {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important;
+  position: relative !important;
+  padding-top: 8px !important;
+  padding-left: 64px !important;
+  padding-right: 5px !important;
+  min-height: 52px !important;
+  text-align: left !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+li.work.blurb .header.module > *,
+li.bookmark.blurb .header.module > *,
+li.series.blurb .header.module > * {
+  text-align: left !important;
+  margin-left: 0 !important;
+}
+
+li.work.blurb .header h4.heading,
+li.bookmark.blurb .header h4.heading,
+li.series.blurb .header h4.heading {
+  order: 1 !important;
+  display: block !important;
+  width: 100% !important;
+  margin: -2px 0 6px 0 !important;
+  border: none !important;
+  line-height: 1.22 !important;
+  white-space: normal !important;
+  overflow: visible !important;
+  box-sizing: border-box !important;
+}
+
+li.work.blurb .header h4.heading > a:first-of-type,
+li.bookmark.blurb .header h4.heading > a:first-of-type,
+li.series.blurb .header h4.heading > a:first-of-type {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 0 2px 0 !important;
+  font-size: 1.03em !important;
+  font-weight: bold !important;
+  line-height: 1.15 !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+  overflow-wrap: anywhere !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  box-sizing: border-box !important;
+}
+
+li.work.blurb .header h4.heading > a:first-of-type:hover,
+li.work.blurb .header h4.heading > a:first-of-type:focus,
+li.bookmark.blurb .header h4.heading > a:first-of-type:hover,
+li.bookmark.blurb .header h4.heading > a:first-of-type:focus,
+li.series.blurb .header h4.heading > a:first-of-type:hover,
+li.series.blurb .header h4.heading > a:first-of-type:focus {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+li.work.blurb .header h4.heading .byline,
+li.bookmark.blurb .header h4.heading .byline,
+li.series.blurb .header h4.heading .byline {
+  display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.24 !important;
+  white-space: normal !important;
+  word-break: break-all !important;
+}
+
+li.work.blurb .header h4.heading a:not(:first-of-type),
+li.bookmark.blurb .header h4.heading a:not(:first-of-type),
+li.series.blurb .header h4.heading a:not(:first-of-type) {
+  display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 1.24 !important;
+  white-space: normal !important;
+  word-break: break-all !important;
+  overflow-wrap: anywhere !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+li.work.blurb .header h4.heading a:not(:first-of-type):hover,
+li.work.blurb .header h4.heading a:not(:first-of-type):focus,
+li.bookmark.blurb .header h4.heading a:not(:first-of-type):hover,
+li.bookmark.blurb .header h4.heading a:not(:first-of-type):focus,
+li.series.blurb .header h4.heading a:not(:first-of-type):hover,
+li.series.blurb .header h4.heading a:not(:first-of-type):focus {
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+li.work.blurb .header p.datetime,
+li.work.blurb .header .datetime,
+li.bookmark.blurb .header p.datetime,
+li.bookmark.blurb .header .datetime,
+li.series.blurb .header p.datetime,
+li.series.blurb .header .datetime {
+  order: 2 !important;
+  position: static !important;
+  float: none !important;
+  clear: both !important;
+  display: block !important;
+  width: auto !important;
+  margin: 0 0 5px 0 !important;
+  text-align: left !important;
+  color: #593423 !important;
+  font-size: 0.82em !important;
+  line-height: 1.18 !important;
+}
+
+li.work.blurb .header h5.fandoms,
+li.bookmark.blurb .header h5.fandoms,
+li.series.blurb .header h5.fandoms {
+  order: 3 !important;
+  display: block !important;
+  width: auto !important;
+  margin: 0 0 0 -46px !important;
+  padding-left: 4px !important;
+  text-align: left !important;
+  overflow: visible !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+}
+
+li.work.blurb .header h5.fandoms a,
+li.bookmark.blurb .header h5.fandoms a,
+li.series.blurb .header h5.fandoms a {
+  display: block !important;
+  margin: 0 0 0.14em 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  text-align: left !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  font-size: 11px !important;
+  line-height: 1.24 !important;
+  color: #593423 !important;
+}
+
+li.work.blurb .header h5.fandoms a::after,
+li.bookmark.blurb .header h5.fandoms a::after,
+li.series.blurb .header h5.fandoms a::after {
+  content: "" !important;
+  display: none !important;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited,
+#main a,
+#main a:hover,
+#main a:focus,
+#outer a,
+#outer a:hover,
+#footer a,
+#footer a:hover,
+#footer li a:hover,
+#footer button:hover,
+p.kudos a,
+p.kudos a:hover {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.bio.module h3.heading::before {
+  text-decoration: none !important;
+}
+
+#main .index.group,
+#main .works-index,
+#main .work.index,
+#main ol.work.index,
+#main ol.work.index.group,
+#main ol.bookmark.index.group,
+#main #user-series > ol.index.group {
+  list-style: none !important;
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0889.PNG"),
+url("https://lovewithless.github.io/-beta1.0/icon/IMG_0889.PNG") !important;
+  background-repeat: repeat-y, repeat-y !important;
+  background-position: left 2px top, right 2px top !important;
+  background-size: 25px auto, 25px auto !important;
+  padding-left: 14px !important;
+  padding-right: 14px !important;
+  box-sizing: border-box !important;
+  max-width: 53rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#main .wrapper,
+#dashboard .wrapper {
+  background: transparent !important;
+  background-image: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+#main .listbox,
+#dashboard .listbox,
+#main fieldset.listbox,
+#dashboard fieldset.listbox {
+  background-image: none !important;
+  border-radius: 14px !important;
+}
+
+ol.index li.blurb,
+li.series.blurb,
+li.work.blurb,
+li.bookmark.blurb,
+li.mystery.blurb {
+  border-image: none !important;
+  background-color: rgba(255, 248, 231, 0.5) !important;
+  background: rgba(255, 248, 231, 0.5) !important;
+  border: none !important;
+  border-top: 1px solid rgba(255, 248, 231, 0.88) !important;
+  border-left: 1px solid rgba(255, 248, 231, 0.62) !important;
+  border-radius: 18px !important;
+  padding: 14px 16px !important;
+  margin-bottom: 16px !important;
+  box-shadow: 0px 8px 24px rgba(44, 82, 52, 0.06) !important;
+  overflow: visible !important;
+}
+
+li.blurb .header,
+li.series .header,
+li.work .header {
+  background: transparent !important;
+  border: none !important;
+  border-bottom: none !important;
+}
+
+#main .fandom.index .index.group,
+#main li.fandom.listbox.group ul.index.group {
+  background-image: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+html body #main li.fandom.listbox.group,
+html body #dashboard li.fandom.listbox.group {
+  background-color: rgba(255, 248, 231, 0.5) !important;
+  background: rgba(255, 248, 231, 0.5) !important;
+  border: none !important;
+  border-top: 1px solid rgba(255, 248, 231, 0.88) !important;
+  border-left: 1px solid rgba(255, 248, 231, 0.62) !important;
+  box-shadow: 0px 8px 24px rgba(44, 82, 52, 0.06) !important;
+  border-radius: 20px !important;
+  padding: 18px 20px !important;
+  margin: 0 0 24px 0 !important;
+}
+
+#main .listbox,
+#dashboard .listbox,
+#main fieldset.listbox,
+#dashboard fieldset.listbox {
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+html body #main li.medium.listbox.group,
+html body #main li.letter.listbox.group,
+html body #main li.fandom.listbox.group,
+html body #dashboard li.medium.listbox.group,
+html body #dashboard li.letter.listbox.group,
+html body #dashboard li.fandom.listbox.group {
+  background-color: rgba(255, 248, 231, 0.5) !important;
+  background: rgba(255, 248, 231, 0.5) !important;
+  border: none !important;
+  border-top: 1px solid rgba(255, 248, 231, 0.88) !important;
+  border-left: 1px solid rgba(255, 248, 231, 0.62) !important;
+  box-shadow: 0px 8px 24px rgba(44, 82, 52, 0.06) !important;
+  border-radius: 20px !important;
+  padding: 18px 20px !important;
+  margin: 0 0 24px 0 !important;
+}
+
+#user-fandoms {
+  overflow: visible !important;
+}
+
+#user-fandoms ol.index.group {
+  padding-left: 3em !important;
+}
+
+li.work.blurb ul.required-tags,
+li.bookmark.blurb ul.required-tags,
+li.series.blurb ul.required-tags {
+  position: absolute !important;
+  top: 6px !important;
+  left: 2px !important;
+  margin: 0 !important;
+  z-index: 10 !important;
+}
+
+li.work.blurb ul.required-tags::before,
+li.bookmark.blurb ul.required-tags::before,
+li.series.blurb ul.required-tags::before {
+  content: "" !important;
+  position: absolute !important;
+  top: -13.5px !important;
+  left: -14px !important;
+  width: 80px !important;
+  height: 80px !important;
+  background-image: url("https://64.media.tumblr.com/4f55cb17c47bcbd91a8ffec4bbdc54f1/f528302d042454b8-89/s2048x3072/ad5083a32adbcfdf5acd030b96d5da1a3615bbff.png") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 100% 100% !important;
+  z-index: -1 !important;
+}
+
+li.work.blurb ul.required-tags,
+li.bookmark.blurb ul.required-tags,
+li.series.blurb ul.required-tags {
+  transform: scale(0.9) !important;
+  transform-origin: top left !important;
+}
+
+.blurb ul.required-tags li .rating-general-audience {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0824.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.blurb ul.required-tags li .rating-teen {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0825.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.blurb ul.required-tags li .rating-mature {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0823.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.blurb ul.required-tags li .rating-explicit {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0822.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.blurb ul.required-tags li .rating-notrated {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0837.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.blurb ul.required-tags li .category-gen {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0816.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.blurb ul.required-tags li .category-other {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0817.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.blurb ul.required-tags li .category-femslash {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0818.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.blurb ul.required-tags li .category-slash {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0819.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.blurb ul.required-tags li .category-het {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0820.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.blurb ul.required-tags li .category-multi {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0821.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.blurb ul.required-tags li .warning-yes {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0827.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.blurb ul.required-tags li .warning-choosenotto {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0828.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.blurb ul.required-tags li .warning-no {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0842.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.blurb ul.required-tags li .external-work {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0829.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.blurb ul.required-tags li .complete-yes {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0835.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.blurb ul.required-tags li .complete-no {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0836.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+.rating-notrated,
+.category-none,
+.category-other,
+.warning-no,
+.external-work {
+  background-color: #8C5A3C !important;
+  background: #8C5A3C !important;
+  color: #FFF8E7 !important;
+  border-radius: 3px !important;
+}
+
+.rating-general-audience,
+.category-gen,
+.complete-yes {
+  background-color: #8C5A3C !important;
+  background: #8C5A3C !important;
+  color: #FFF8E7 !important;
+  border-radius: 3px !important;
+}
+
+.rating-teen,
+.category-slash,
+.category-femslash,
+.category-multi {
+  background-color: #8C5A3C !important;
+  background: #8C5A3C !important;
+  color: #FFF8E7 !important;
+  border-radius: 3px !important;
+}
+
+.rating-mature,
+.rating-explicit,
+.warning-choosenotto,
+.warning-yes,
+.complete-no,
+.category-het {
+  background-color: #8C5A3C !important;
+  background: #8C5A3C !important;
+  color: #FFF8E7 !important;
+  border-radius: 3px !important;
+}
+
+.blurb ul.required-tags li .category-multi {
+  background-position: 0.5px center !important;
+}
+
+html body img[src$="/images/lockblue.png"] {
+  display: inline-block !important;
+  width: 0 !important;
+  height: 20px !important;
+  padding-left: 18px !important;
+  overflow: hidden !important;
+  vertical-align: middle !important;
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0826.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  filter: brightness(0) saturate(100%) invert(17%) sepia(18%) saturate(1843%) hue-rotate(346deg) brightness(93%) contrast(90%) !important;
+  -webkit-filter: brightness(0) saturate(100%) invert(17%) sepia(18%) saturate(1843%) hue-rotate(346deg) brightness(93%) contrast(90%) !important;
+}
+
+html body img[src$="/images/lockblue.png"] {
+  position: relative !important;
+  top: 0px !important;
+}
+
+#workskin {
+  background-color: rgba(255, 248, 231, 0.5) !important;
+  border: none !important;
+  border-image: none !important;
+  border-top: 1px solid rgba(255, 248, 231, 0.88) !important;
+  border-left: 1px solid rgba(255, 248, 231, 0.62) !important;
+  padding: 14px !important;
+  max-width: 1000px !important;
+  margin: 2em auto !important;
+  border-radius: 18px !important;
+  box-shadow: 0px 8px 24px rgba(44, 82, 52, 0.06) !important;
+  box-sizing: border-box !important;
+  position: relative !important;
+  z-index: 1 !important;
+  overflow: visible !important;
+}
+
+#bookmark-form form,
+form#new_bookmark,
+#bookmark-form form fieldset,
+form#new_bookmark fieldset,
+#bookmark-form form fieldset fieldset,
+form#new_bookmark fieldset fieldset,
+#bookmark-form form dl,
+form#new_bookmark dl,
+#bookmark-form form dt,
+form#new_bookmark dt,
+#bookmark-form form dd,
+form#new_bookmark dd {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.LV_validation_message,
+.LV_invalid,
+.comment_error,
+.kudos_error,
+.error,
+.alert.flash {
+  display: block !important;
+  position: static !important;
+  float: none !important;
+  clear: both !important;
+  width: auto !important;
+  max-width: 100% !important;
+  margin: 0.5em 0 0 0 !important;
+  white-space: normal !important;
+  word-break: break-word !important;
+}
+
+#header .search form {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+}
+
+#header .search input.text {
+  width: auto !important;
+  margin: 0 8px 0 0 !important;
+}
+
+#header .search input[type="submit"] {
+  margin: 0 !important;
+  width: auto !important;
+  white-space: nowrap !important;
+}
+
+#main .splash .favorite {
+  position: relative !important;
+  overflow: visible !important;
+  box-sizing: border-box !important;
+}
+
+#main .splash .favorite::after {
+  content: "" !important;
+  display: block !important;
+  position: absolute !important;
+  right: 2% !important;
+  top: 35px !important;
+  width: 120px !important;
+  height: 120px !important;
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0890.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  z-index: 1 !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+
+.splash .favorite.module h3.heading,
+.splash .latest.news.module h3.heading,
+.splash .random.readings.module h3.heading,
+.splash .latest.messages.module h3.heading,
+.splash .social.module h3.heading,
+.splash .favorite.module h3.heading span.title,
+.splash .latest.news.module h3.heading span.title,
+.splash .random.readings.module h3.heading span.title,
+.splash .latest.messages.module h3.heading span.title,
+.splash .social.module h3.heading span.title {
+  border: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+#workskin h3.byline {
+  position: relative !important;
+  margin-bottom: 2.2em !important;
+}
+
+#workskin h3.byline::after {
+  content: "" !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 100% !important;
+  width: 200px !important;
+  height: 42px !important;
+  margin-top: 2px !important;
+  transform: translateX(-50%) !important;
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0900.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+
+.summary h3.heading,
+.notes h3.heading {
+  border-bottom: none !important;
+  text-align: center !important;
+  font-size: 0 !important;
+  padding: 14px 0 !important;
+}
+
+.summary h3.heading::before {
+  content: "° ₊ ʚ Summary ɞ ₊ °" !important;
+  font-size: 1.1rem !important;
+  color: #593423 !important;
+  font-weight: normal !important;
+}
+
+.notes h3.heading::before {
+  content: "° ₊ ʚ Notes ɞ ₊ °" !important;
+  font-size: 1.1rem !important;
+  color: #593423 !important;
+  font-weight: normal !important;
+}
+
+li.work dl.stats dd,
+li.bookmark dl.stats dd,
+dl.work dl.stats dd,
+ul.statistics dl.stats dd {
+  display: inline-flex !important;
+  align-items: center !important;
+  vertical-align: middle !important;
+  white-space: nowrap !important;
+  line-height: 1.1 !important;
+  color: #593423 !important;
+}
+
+ul.statistics dl.stats dd::before,
+li.work dl.stats dd::before,
+li.bookmark dl.stats dd::before,
+dl.work dl.stats dd::before,
+.collection dl.stats dd a[href$=collections]::before,
+li.collection dl.stats dd a[href$=works]::before,
+li.collection dl.stats dd a[href$=bookmarks]::before,
+li.collection dl.stats dd a[href$=fandoms]::before,
+li.series dl.stats dd:not(.language):not(.words):not(.chapters):not(.collections):not(.comments):not(.kudos):not(.bookmarks):not(.hits):not(.published):not(.subscriptions):nth-of-type(1)::before,
+li:not(.collection) dl.stats dd:not(.language):not(.words):not(.chapters):not(.collections):not(.comments):not(.kudos):not(.bookmarks):not(.hits):not(.published):not(.subscriptions):nth-of-type(2)::before,
+dl.stats dd:not(.bookmarks) a[href$=bookmarks]::before {
+  margin-right: 4px !important;
+  vertical-align: middle !important;
+  position: relative !important;
+  top: -1px !important;
+}
+
+#main li.series.blurb dl.stats dd,
+#dashboard li.series.blurb dl.stats dd {
+  display: inline-flex !important;
+  align-items: center !important;
+  vertical-align: middle !important;
+  white-space: nowrap !important;
+  line-height: 1.1 !important;
+}
+
+#main li.series.blurb dl.stats dd::before,
+#dashboard li.series.blurb dl.stats dd::before {
+  display: inline-block !important;
+  width: 20px !important;
+  height: 20px !important;
+  content: "" !important;
+  background-size: 20px 20px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  margin-right: 4px !important;
+  filter: brightness(0) saturate(100%) invert(17%) sepia(18%) saturate(1843%) hue-rotate(346deg) brightness(93%) contrast(90%) !important;
+  -webkit-filter: brightness(0) saturate(100%) invert(17%) sepia(18%) saturate(1843%) hue-rotate(346deg) brightness(93%) contrast(90%) !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  position: relative !important;
+  top: -1px !important;
+}
+
+#main li.series.blurb dl.stats dd.words::before,
+#dashboard li.series.blurb dl.stats dd.words::before {
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0901.PNG") !important;
+}
+
+#main li.series.blurb dl.stats dd.works::before,
+#dashboard li.series.blurb dl.stats dd.works::before {
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0917.PNG") !important;
+}
+
+#main li.series.blurb dl.stats dd.bookmarks::before,
+#dashboard li.series.blurb dl.stats dd.bookmarks::before {
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0909.PNG") !important;
+}
+
+#main li.series.blurb dl.stats dd.subscriptions::before,
+#dashboard li.series.blurb dl.stats dd.subscriptions::before {
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0915.PNG") !important;
+}
+
+.skins li.blurb .icon,
+#main.skins-index li.blurb .icon,
+#main.skins-show li.blurb .icon {
+  display: none !important;
+}
+
+.skins li.blurb .header,
+#main.skins-index li.blurb .header,
+#main.skins-show li.blurb .header {
+  padding-left: 10px !important;
+}
+
+ol.collection.index li.collection.blurb.group .header,
+li.collection.picture.blurb .header {
+  position: relative !important;
+  min-height: 76px !important;
+  padding-left: 92px !important;
+  box-sizing: border-box !important;
+  overflow: visible !important;
+}
+
+ol.collection.index li.collection.blurb.group .icon,
+li.collection.picture.blurb .icon {
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 72px !important;
+  height: 72px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  overflow: hidden !important;
+  border-radius: 10px !important;
+}
+
+ol.collection.index li.collection.blurb.group .icon img,
+li.collection.picture.blurb .icon img {
+  display: block !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  min-width: 72px !important;
+  min-height: 72px !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  transform: translate(-50%, -50%) !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 10px !important;
+}
+
+ol.collection.index li.collection.blurb.group .header h4,
+ol.collection.index li.collection.blurb.group .header h5,
+ol.collection.index li.collection.blurb.group .header .datetime,
+li.collection.picture.blurb .header h4,
+li.collection.picture.blurb .header h5,
+li.collection.picture.blurb .header .datetime {
+  position: static !important;
+  float: none !important;
+  clear: none !important;
+  width: auto !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+  text-align: left !important;
+}
+
+ol.collection.index li.collection.blurb.group .header h4.heading,
+li.collection.picture.blurb .header h4.heading {
+  margin: 0 0 0.2em 0 !important;
+  line-height: 1.2 !important;
+  word-break: break;
+}
+
+li.mystery.blurb.group {
+  position: relative !important;
+}
+
+li.mystery.blurb.group .header {
+  position: relative !important;
+  z-index: 2 !important;
+  min-height: 82px !important;
+  padding-left: 98px !important;
+  overflow: visible !important;
+}
+
+li.mystery.blurb.group .icon {
+  position: absolute !important;
+  left: 8px !important;
+  top: 8px !important;
+  width: 72px !important;
+  height: 72px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  background: #FFFBF0 !important;
+  border-radius: 12px !important;
+  border: 1px solid rgba(255, 255, 255, 0.8) !important;
+  box-shadow: 0 2px 6px rgba(107, 63, 42, 0.12),
+    0 1px 2px rgba(107, 63, 42, 0.08) !important;
+  z-index: 10 !important;
+}
+
+li.mystery.blurb.group .icon img {
+  display: none !important;
+}
+
+li.mystery.blurb.group .icon::after {
+  content: "?" !important;
+  display: block !important;
+  position: relative !important;
+  z-index: 11 !important;
+  width: 72px !important;
+  height: 72px !important;
+  line-height: 72px !important;
+  text-align: center !important;
+  color: #B89B7A !important;
+  font-size: 42px !important;
+  font-family: "Georgia", serif !important;
+  font-weight: bold !important;
+}
+
+li.mystery.blurb.group .header h4.heading,
+li.mystery.blurb.group .header h5,
+li.mystery.blurb.group .header .datetime,
+li.mystery.blurb.group .header .mods {
+  position: relative !important;
+  z-index: 3 !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+#main li.bookmark.blurb li.user.short.blurb.group,
+#dashboard li.bookmark.blurb li.user.short.blurb.group {
+  position: relative !important;
+  background: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  margin: 0.4em 0 0.8em 0 !important;
+  overflow: visible !important;
+}
+
+#main .index.group .index.group,
+#main .index.group ol.bookmark.index.group,
+#main .index.group ol.work.index.group {
+  background-image: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#main > h2.heading,
+h2.collections,
+#main h2.collections {
+  text-align: center !important;
+  width: 100% !important;
+  float: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+li.collection.blurb .header h5.tags,
+li.collection.blurb h5.tags {
+  display: block !important;
+  width: auto !important;
+  text-align: left !important;
+  overflow: visible !important;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  margin: 10px 0 0 0 !important;
+  padding: 0 !important;
+  clear: both !important;
+}
+
+li.collection.blurb h5.tags .landmark {
+  display: none !important;
+}
+
+li.collection.blurb .header h5.tags a,
+li.collection.blurb h5.tags a {
+  display: block !important;
+  margin: 0 0 0.14em 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  text-align: left !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  font-size: 11px !important;
+  line-height: 1.24 !important;
+  color: #593423 !important;
+}
+
+li.collection.blurb .header h5.tags a::after,
+li.collection.blurb h5.tags a::after {
+  content: "" !important;
+  display: none !important;
+}
+
+html body #header .search input[type="text"],
+html body #header #search input[type="text"] {
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0879.PNG") !important;
+  background-size: 100% 100% !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-color: transparent !important;
+  width: 130px !important;
+  height: 24px !important;
+  padding: 4px 10px !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  color: #593423 !important;
+}
+
+html body #header .search input[type="text"]:focus,
+html body #header #search input[type="text"]:focus {
+  border: none !important;
+  outline: none !important;
+  border-radius: 6px !important;
+  box-shadow: 0 0 18px #F6EDDC !important;
+}
+
+#main form .index.group,
+#main fieldset .index.group {
+  background-image: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.pseud .icon {
+  border: none !important;
+}
+
+.home .primary.header.module {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  margin: 2.2em auto 2em auto !important;
+}
+
+.home .primary.header.module .icon {
+  order: 1 !important;
+  float: none !important;
+  position: relative !important;
+  width: 96px !important;
+  height: 96px !important;
+  margin: 0 auto 0.9em auto !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+}
+
+.home .primary.header.module .icon::before {
+  content: none !important;
+  display: none !important;
+}
+
+.home .primary.header.module .icon a {
+  display: block !important;
+  width: 96px !important;
+  height: 96px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  position: relative !important;
+  z-index: 2 !important;
+  overflow: hidden !important;
+  border-radius: 50% !important;
+}
+
+.home .primary.header.module .icon img {
+  display: block !important;
+  width: 96px !important;
+  height: 96px !important;
+  margin: 0 !important;
+  border-radius: 50% !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.home .primary.header.module .icon::after {
+  content: "" !important;
+  display: block !important;
+  position: absolute !important;
+  left: 50% !important;
+  top: 50% !important;
+  width: 170px !important;
+  height: 170px !important;
+  margin-left: -85px !important;
+  margin-top: -85px !important;
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0930.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  z-index: 3 !important;
+}
+
+.home .primary.header.module h2.heading {
+  order: 2 !important;
+  width: 100% !important;
+  margin: 0.7em 0 0.55em 0 !important;
+  text-align: center !important;
+  border: none !important;
+}
+
+.home .primary.header.module ul.actions {
+  order: 3 !important;
+  display: block !important;
+  width: 100% !important;
+  margin: 0 auto 1.2em auto !important;
+  padding: 0 !important;
+  text-align: center !important;
+  clear: both !important;
+}
+
+.home .primary.header.module ul.actions li {
+  display: inline-block !important;
+  float: none !important;
+  margin: 0 0.22em 0.45em 0.22em !important;
+  padding: 0 !important;
+  vertical-align: middle !important;
+}
+
+.home .primary.header.module ul.actions li a,
+.home .primary.header.module ul.actions li span,
+.home .primary.header.module ul.actions li input,
+.home .primary.header.module ul.actions li button,
+.home .primary.header.module ul.actions li form {
+  margin: 0 !important;
+}
+
+#main li.bookmark.blurb .status,
+#dashboard li.bookmark.blurb .status {
+  display: block !important;
+  position: absolute !important;
+  top: 55px !important;
+  right: 15px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  z-index: 10 !important;
+  width: 50px !important;
+  height: 50px !important;
+}
+
+#main li.bookmark.blurb .status a,
+#dashboard li.bookmark.blurb .status a {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#main li.bookmark.blurb .status .count,
+#dashboard li.bookmark.blurb .status .count {
+  display: none !important;
+}
+
+#main li.bookmark.blurb .status span,
+#dashboard li.bookmark.blurb .status span {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  background-color: transparent !important;
+  font-size: 0 !important;
+  text-indent: -9999px !important;
+  color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+#main li.bookmark.blurb .status img,
+#dashboard li.bookmark.blurb .status img {
+  display: none !important;
+}
+
+.status .rec {
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0933.PNG") !important;
+}
+
+.status .public {
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0931.PNG") !important;
+}
+
+.status .private {
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0932.PNG") !important;
+}
+
+.status .hidden {
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0934.PNG") !important;
+}
+
+#main p.status span.private .text,
+#dashboard p.status span.private .text,
+.status .private .text {
+  display: none !important;
+  background: none !important;
+}
+
+html body #modal {
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0935.PNG") !important;
+  background-color: #F6EDDC !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  border: 1px solid rgba(107, 63, 42, 0.2) !important;
+  border-radius: 6px !important;
+  box-shadow: 0 12px 40px rgba(107, 63, 42, 0.2) !important;
+  padding: 20px !important;
+  max-width: 90% !important;
+  overflow: hidden !important;
+}
+
+html body #modal hr,
+html body #modal .actions,
+html body #modal ul.actions,
+html body #modal ol.actions,
+html body #modal div.actions,
+html body #modal p.actions,
+html body #modal .content,
+html body #modal .wrapper,
+html body #modal .inner,
+html body #modal fieldset,
+html body #modal .submit,
+html body #modal .module,
+html body #modal .heading,
+html body #modal dl,
+html body #modal dt,
+html body #modal dd,
+html body #modal p,
+html body #modal ul,
+html body #modal li {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+html body #modal .actions::before,
+html body #modal .actions::after,
+html body #modal ul.actions::before,
+html body #modal ul.actions::after,
+html body #modal ol.actions::before,
+html body #modal ol.actions::after,
+html body #modal div.actions::before,
+html body #modal div.actions::after,
+html body #modal p.actions::before,
+html body #modal p.actions::after,
+html body #modal .content::before,
+html body #modal .content::after,
+html body #modal .wrapper::before,
+html body #modal .wrapper::after,
+html body #modal .inner::before,
+html body #modal .inner::after,
+html body #modal fieldset::before,
+html body #modal fieldset::after,
+html body #modal .submit::before,
+html body #modal .submit::after,
+html body #modal .module::before,
+html body #modal .module::after,
+html body #modal .heading::before,
+html body #modal .heading::after,
+html body #modal dl::before,
+html body #modal dl::after,
+html body #modal dt::before,
+html body #modal dt::after,
+html body #modal dd::before,
+html body #modal dd::after {
+  content: none !important;
+  background: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+html body #modal,
+html body #modal h1,
+html body #modal h2,
+html body #modal h3,
+html body #modal h4,
+html body #modal p,
+html body #modal li,
+html body #modal a,
+html body #modal span,
+html body #modal dt,
+html body #modal dd {
+  color: #593423 !important;
+  -webkit-text-fill-color: #593423 !important;
+  text-shadow: none !important;
+  text-decoration: none !important;
+}
+
+html body #modal a.action,
+html body #modal a.close,
+html body #modal .action a,
+html body #modal .actions a,
+html body #modal button,
+html body #modal input[type="submit"] {
+  display: inline-block !important;
+  background: rgba(255, 248, 231, 0.5) !important;
+  background-image: none !important;
+  border: 1px solid rgba(107, 63, 42, 0.25) !important;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+  color: #593423 !important;
+  -webkit-text-fill-color: #593423 !important;
+  padding: 6px 16px !important;
+  text-decoration: none !important;
+}
+
+html body #modal a.action:hover,
+html body #modal a.close:hover,
+html body #modal .action a:hover,
+html body #modal .actions a:hover,
+html body #modal button:hover,
+html body #modal input[type="submit"]:hover {
+  background: rgba(107, 63, 42, 0.15) !important;
+  border-color: #593423 !important;
+  color: #593423 !important;
+  -webkit-text-fill-color: #593423 !important;
+}
+
+html body #modal textarea {
+  display: block !important;
+  float: none !important;
+  margin: 15px auto !important;
+  width: 92% !important;
+  background: rgba(255, 248, 231, 0.62) !important;
+  color: #593423 !important;
+  border: 1px solid rgba(107, 63, 42, 0.2) !important;
+  border-radius: 8px !important;
+  box-shadow: inset 0 2px 4px rgba(107, 63, 42, 0.05) !important;
+  padding: 12px !important;
+  font-family: inherit !important;
+}
+
+html body #modal #bookmark-symbols-key {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+html body #modal #bookmark-symbols-key dt {
+  position: relative !important;
+  width: 35px !important;
+  height: 35px !important;
+  margin: 0 12px 16px 0 !important;
+  padding: 0 !important;
+  float: left !important;
+  clear: left !important;
+}
+
+html body #modal #bookmark-symbols-key dd {
+  margin: 0 0 16px 47px !important;
+  padding: 0 !important;
+  min-height: 35px !important;
+  line-height: 35px !important;
+}
+
+html body #modal #bookmark-symbols-key dt img {
+  opacity: 0 !important;
+  width: 35px !important;
+  height: 35px !important;
+  display: block !important;
+}
+
+html body #modal #bookmark-symbols-key dt::before {
+  content: "" !important;
+  position: absolute !important;
+  left: 0 !important;
+  top: 0 !important;
+  width: 35px !important;
+  height: 35px !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+}
+
+html body #modal #bookmark-symbols-key dt:nth-of-type(1)::before {
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0933.PNG") !important;
+}
+
+html body #modal #bookmark-symbols-key dt:nth-of-type(2)::before {
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0931.PNG") !important;
+}
+
+html body #modal #bookmark-symbols-key dt:nth-of-type(3)::before {
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0932.PNG") !important;
+}
+
+html body #modal #bookmark-symbols-key dt:nth-of-type(4)::before {
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0934.PNG") !important;
+}
+
+html body #modal a:hover,
+html body #modal a:focus,
+html body #modal a:active {
+  color: #8C5A3C !important;
+  -webkit-text-fill-color: #8C5A3C !important;
+  text-decoration: underline !important;
+}
+
+#main p.status span.private .text,
+#dashboard p.status span.private .text {
+  display: none !important;
+}
+
+dl#symbols-key dt img:not(#symbols-key dl img) {
+  display: none !important;
+}
+
+#symbols-key h4 {
+  margin: 1em 0 !important;
+}
+
+#symbols-key dl {
+  width: auto !important;
+  margin: 0 !important;
+  padding: 0.643em 0.643em 0 0.643em !important;
+  border: 1px solid rgba(255, 248, 231, 0.88) !important;
+  border-radius: 12px !important;
+  background-color: rgba(255, 248, 231, 0.6) !important;
+}
+
+dl#symbols-key dd {
+  margin: 0 !important;
+}
+
+#symbols-key dl dd,
+#bookmark-symbols-key dd {
+  margin: -25px auto 15px 35px !important;
+}
+
+#symbols-key dl img,
+#bookmark-symbols-key img {
+  width: 0 !important;
+  height: 0 !important;
+  padding: 25px 0 0 25px !important;
+  box-sizing: border-box !important;
+  border-radius: 8px !important;
+  background-color: #A67C5A !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-origin: border-box !important;
+  box-shadow: 0 1px 2px rgba(107, 63, 42, 0.1) !important;
+}
+
+#main ol.chapter.index,
+#main ol.chapter.index.group,
+#main .chapters-index ol.index.group,
+body.chapters-index #main .index.group {
+  background-image: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+input::placeholder,
+textarea::placeholder,
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder,
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: rgba(107, 63, 42, 0.55) !important;
+  opacity: 1 !important;
+}
+
+input[type="checkbox"],
+.actions li label input[type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  background: rgba(255, 248, 231, 0.62) !important;
+  border: none !important;
+  width: 15px;
+  height: 15px;
+  border-radius: 4px !important;
+  box-shadow: 0px 0px 2px rgba(239, 217, 204, 0.18) !important;
+  margin-right: 5px;
+  vertical-align: middle !important;
+}
+
+#advanced_skin label.action,
+#advanced_skin ul.options label,
+#advanced_skin ul.options.index.group.many label {
+  background: transparent !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  padding: 2px 0 !important;
+}
+
+input[type="file"] {
+  color: #593423 !important;
+  font-size: 13px !important;
+  padding: 4px 0 !important;
+}
+
+input[type="file"]::file-selector-button,
+input[type="file"]::-webkit-file-upload-button {
+  background: rgba(255, 248, 231, 0.88) !important;
+  color: #593423 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0px 0px 5px rgba(239, 217, 204, 0.28) !important;
+  padding: 6px 14px !important;
+  margin-right: 10px !important;
+  font-size: 13px !important;
+  font-family: inherit !important;
+  cursor: pointer !important;
+  transition: all 0.15s ease !important;
+}
+
+input[type="file"]::file-selector-button:hover,
+input[type="file"]::-webkit-file-upload-button:hover {
+  background: #F6EDDC !important;
+  box-shadow: 0px 0px 8px rgba(239, 217, 204, 0.4) !important;
+}
+
+.autocomplete div.dropdown ul {
+  background: rgba(255, 248, 231, 0.96) !important;
+  border: 1px solid rgba(255, 248, 231, 0.88) !important;
+  box-shadow: 0px 4px 12px rgba(44, 82, 52, 0.08) !important;
+  color: #593423 !important;
+}
+
+.autocomplete div.dropdown ul li:hover,
+.autocomplete div.dropdown ul li.selected,
+.autocomplete div.dropdown ul li[aria-selected="true"] {
+  background: #F6EDDC !important;
+  color: #593423 !important;
+}
+
+.search [role="tooltip"] {
+  background: rgba(255, 248, 231, 0.96) !important;
+  border: 1px solid rgba(255, 248, 231, 0.88) !important;
+  box-shadow: 0px 4px 12px rgba(44, 82, 52, 0.08) !important;
+}
+
+.muted-users-notice,
+#main > .notice.muted-users-notice,
+.notice.muted-users-notice,
+#main > .notice:has(a[href*="/muted"]) {
+  display: none !important;
+}
+
+#main.works-index > h2.heading {
+  text-align: left !important;
+  font-size: 2.0em !important;
+  line-height: 1.3 !important;
+  padding: 0 10px !important;
+  margin: 12px 0 !important;
+  word-break: normal !important;
+  overflow-wrap: break-word !important;
+  display: inline !important;
+}
+
+#main.works-index > h2.heading a.tag,
+#main.works-index > h2.heading a {
+  display: inline !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  white-space: normal !important;
+}
+
+ol.index:not(.listbox) > li.blurb .userstuff {
+  margin-top: 0.8em !important;
+}
+
+ul.tags li.warnings:first-child:before,
+li.warnings + li.relationships:before,
+li.relationships + li.characters:before,
+li.characters + li.freeforms:before,
+li.warnings + li.characters:before,
+li.warnings + li.freeforms:before,
+li.relationships + li.freeforms:before {
+  background-position: left 1px !important;
+  line-height: 1.5 !important;
+}
+
+body.skins-show .home .primary.header.module .icon::after,
+body.skins-index .home .primary.header.module .icon::after,
+body.users-skins .home .primary.header.module .icon::after,
+#main.skins-show .home .primary.header.module .icon::after,
+#main.skins-index .home .primary.header.module .icon::after {
+  display: none !important;
+}
+
+#main li.tagset.picture.blurb,
+#main li.tagset.blurb {
+  background: rgba(255, 248, 231, 0.5) !important;
+  background-color: rgba(255, 248, 231, 0.5) !important;
+  border: none !important;
+  border-top: 1px solid rgba(255, 248, 231, 0.88) !important;
+  border-left: 1px solid rgba(255, 248, 231, 0.62) !important;
+  border-radius: 18px !important;
+  box-shadow: 0px 8px 24px rgba(44, 82, 52, 0.06) !important;
+  padding: 15px !important;
+  margin-bottom: 16px !important;
+  list-style: none !important;
+}
+
+#main li.tagset.blurb .icon img,
+#main li.tagset.picture.blurb .icon img {
+  display: none !important;
+}
+
+#main li.tagset.blurb .icon,
+#main li.tagset.picture.blurb .icon {
+  width: 60px !important;
+  height: 60px !important;
+  background-color: transparent !important;
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0966.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+}
+
+#main li.collection.blurb .icon img[src$="/images/skins/iconsets/default/icon_collection.png"],
+#main li.collection.picture.blurb .icon img[src$="/images/skins/iconsets/default/icon_collection.png"],
+ol.collection.index li.collection.blurb.group .icon img[src$="/images/skins/iconsets/default/icon_collection.png"] {
+  display: none !important;
+}
+
+#main li.collection.blurb .icon:has(img[src$="/images/skins/iconsets/default/icon_collection.png"]),
+#main li.collection.picture.blurb .icon:has(img[src$="/images/skins/iconsets/default/icon_collection.png"]),
+ol.collection.index li.collection.blurb.group .icon:has(img[src$="/images/skins/iconsets/default/icon_collection.png"]) {
+  width: 75px !important;
+  height: 75px !important;
+  background-color: transparent !important;
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0967.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+}
+
+#main.collections-show .home .primary.header.module .icon::after {
+  display: none !important;
+}
+
+#main.collections-show .home .primary.header.module .icon img[src$="/images/skins/iconsets/default/icon_collection.png"] {
+  display: none !important;
+}
+
+#main.collections-show .home .primary.header.module .icon:has(img[src$="/images/skins/iconsets/default/icon_collection.png"]) {
+  width: 96px !important;
+  height: 96px !important;
+  background-color: transparent !important;
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0968.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+}
+
+#main.collections-show .home .primary.header.module .icon:has(img[src$="/images/skins/iconsets/default/icon_collection.png"]) a {
+  width: 100% !important;
+  height: 100% !important;
+  display: block !important;
+}
+
+#main.collections-show .home .primary.header.module .icon,
+#main.collections-show .home .primary.header.module .icon img {
+  border-radius: 16px !important;
+  overflow: hidden !important;
+}
+
+#main.tags-show .home .primary.header.module .icon::after,
+body.tags-show .home .primary.header.module .icon::after {
+  display: none !important;
+}
+
+#main.tags-show .home .primary.header.module .icon img,
+body.tags-show .home .primary.header.module .icon img {
+  display: none !important;
+}
+
+#main.tags-show .home .primary.header.module .icon,
+body.tags-show .home .primary.header.module .icon {
+  width: 96px !important;
+  height: 96px !important;
+  background-color: transparent !important;
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0969.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+}
+
+#main.tags-show .home .primary.header.module .icon a,
+#main.tags-show .home .primary.header.module .icon::before,
+body.tags-show .home .primary.header.module .icon a,
+body.tags-show .home .primary.header.module .icon::before {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#main.tags-show .index.group,
+#main.tags-show ol.index,
+#main.tags-show ul.index,
+body.tags-show #main .index.group {
+  background-image: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#main.tags-index .index.group,
+#main.tags-index ul.tags,
+#main.tags-index ul.index,
+body.tags-index #main .index.group,
+body.tags-index #main ul.tags {
+  background-image: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#main.owned_tag_sets-show .index.group,
+#main.owned_tag_sets-show ol.index,
+#main.owned_tag_sets-show ul.index {
+  background-image: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+#main.admin_posts-index .home .primary.header.module .icon::after,
+body.admin_posts-index .home .primary.header.module .icon::after {
+  display: none !important;
+}
+
+#main.admin_posts-index .home .primary.header.module .icon img,
+body.admin_posts-index .home .primary.header.module .icon img {
+  display: none !important;
+}
+
+#main.admin_posts-index .home .primary.header.module .icon,
+body.admin_posts-index .home .primary.header.module .icon {
+  width: 150px !important;
+  height: 150px !important;
+  background-color: transparent !important;
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0961.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+}
+
+#main.admin_posts-index .home .primary.header.module .icon a,
+#main.admin_posts-index .home .primary.header.module .icon::before,
+body.admin_posts-index .home .primary.header.module .icon a,
+body.admin_posts-index .home .primary.header.module .icon::before {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#main.skins-show .home .primary.header.module .icon,
+body.skins-show .home .primary.header.module .icon {
+  width: 130px !important;
+  height: 130px !important;
+  background-color: transparent !important;
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0964.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+}
+
+#main.skins-show .home .primary.header.module .icon a,
+#main.skins-show .home .primary.header.module .icon::before,
+body.skins-show .home .primary.header.module .icon a,
+body.skins-show .home .primary.header.module .icon::before {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+#symbols-key img[src$="/images/skins/iconsets/default/rating-general-audience.png"],
+#bookmark-symbols-key img[src$="/images/skins/iconsets/default/rating-general-audience.png"] {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0824.PNG") !important;
+}
+
+#symbols-key img[src$="/images/skins/iconsets/default/rating-teen.png"],
+#bookmark-symbols-key img[src$="/images/skins/iconsets/default/rating-teen.png"] {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0825.PNG") !important;
+}
+
+#symbols-key img[src$="/images/skins/iconsets/default/rating-mature.png"],
+#bookmark-symbols-key img[src$="/images/skins/iconsets/default/rating-mature.png"] {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0823.PNG") !important;
+}
+
+#symbols-key img[src$="/images/skins/iconsets/default/rating-explicit.png"],
+#bookmark-symbols-key img[src$="/images/skins/iconsets/default/rating-explicit.png"] {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0822.PNG") !important;
+}
+
+#symbols-key img[src$="/images/skins/iconsets/default/rating-notrated.png"],
+#bookmark-symbols-key img[src$="/images/skins/iconsets/default/rating-notrated.png"] {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0837.PNG") !important;
+}
+
+#symbols-key img[src$="/images/skins/iconsets/default/category-gen.png"],
+#bookmark-symbols-key img[src$="/images/skins/iconsets/default/category-gen.png"] {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0816.PNG") !important;
+}
+
+#symbols-key img[src$="/images/skins/iconsets/default/category-other.png"],
+#bookmark-symbols-key img[src$="/images/skins/iconsets/default/category-other.png"] {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0817.PNG") !important;
+}
+
+#symbols-key img[src$="/images/skins/iconsets/default/category-femslash.png"],
+#bookmark-symbols-key img[src$="/images/skins/iconsets/default/category-femslash.png"] {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0818.PNG") !important;
+}
+
+#symbols-key img[src$="/images/skins/iconsets/default/category-slash.png"],
+#bookmark-symbols-key img[src$="/images/skins/iconsets/default/category-slash.png"] {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0819.PNG") !important;
+}
+
+#symbols-key img[src$="/images/skins/iconsets/default/category-het.png"],
+#bookmark-symbols-key img[src$="/images/skins/iconsets/default/category-het.png"] {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0820.PNG") !important;
+}
+
+#symbols-key img[src$="/images/skins/iconsets/default/category-multi.png"],
+#bookmark-symbols-key img[src$="/images/skins/iconsets/default/category-multi.png"] {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0821.PNG") !important;
+}
+
+#symbols-key img[src$="/images/skins/iconsets/default/warning-yes.png"],
+#bookmark-symbols-key img[src$="/images/skins/iconsets/default/warning-yes.png"] {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0827.PNG") !important;
+}
+
+#symbols-key img[src$="/images/skins/iconsets/default/warning-choosenotto.png"],
+#bookmark-symbols-key img[src$="/images/skins/iconsets/default/warning-choosenotto.png"] {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0828.PNG") !important;
+}
+
+#symbols-key img[src$="/images/skins/iconsets/default/warning-no.png"],
+#bookmark-symbols-key img[src$="/images/skins/iconsets/default/warning-no.png"] {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0842.PNG") !important;
+}
+
+#symbols-key img[src$="/images/skins/iconsets/default/warning-external-work.png"],
+#bookmark-symbols-key img[src$="/images/skins/iconsets/default/warning-external-work.png"] {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0829.PNG") !important;
+}
+
+#symbols-key img[src$="/images/skins/iconsets/default/complete-yes.png"],
+#bookmark-symbols-key img[src$="/images/skins/iconsets/default/complete-yes.png"] {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0835.PNG") !important;
+}
+
+#symbols-key img[src$="/images/skins/iconsets/default/complete-no.png"],
+#bookmark-symbols-key img[src$="/images/skins/iconsets/default/complete-no.png"] {
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0836.PNG") !important;
+}
+
+#symbols-key img[src$="/images/skins/iconsets/default/category-multi.png"],
+#bookmark-symbols-key img[src$="/images/skins/iconsets/default/category-multi.png"] {
+  background-position: 0.8px center !important;
+}
+
+html body #main.admin_posts-index form {
+  text-align: center !important;
+  max-width: 100% !important;
+}
+
+html body #main.admin_posts-index form > p {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  max-width: 320px !important;
+}
+
+html body #main.admin_posts-index form > p > label {
+  flex: 0 0 auto !important;
+  width: 60px !important;
+  min-width: 60px !important;
+  max-width: 60px !important;
+  height: 24px !important;
+  margin: 4px 8px 4px 0 !important;
+  padding: 0 !important;
+  display: inline-block !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  line-height: 24px !important;
+  font-size: 0.9em !important;
+  box-sizing: border-box !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+}
+
+html body #main.admin_posts-index form > p > label font,
+html body #main.admin_posts-index form > p > label font font,
+html body #main.admin_posts-index form > p > label span {
+  display: inline !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: inherit !important;
+  line-height: inherit !important;
+  vertical-align: baseline !important;
+  text-align: inherit !important;
+}
+
+html body #main.admin_posts-index form > p select,
+html body #main.admin_posts-index form > p input[type="text"] {
+  flex: 0 0 auto !important;
+  width: 240px !important;
+  max-width: 70% !important;
+  margin: 4px 0 !important;
+  box-sizing: border-box !important;
+}
+
+html body #main.admin_posts-index form > p input[type="submit"] {
+  flex: 0 0 100% !important;
+  width: auto !important;
+  max-width: 80px !important;
+  margin: 12px auto 0 auto !important;
+  padding: 4px 16px !important;
+  display: block !important;
+}
+
+li.skins.blurb,
+li.skins.picture.blurb,
+#main.skins-index li.blurb,
+#main.users-skins li.blurb {
+  background-color: rgba(255, 248, 231, 0.5) !important;
+  background: rgba(255, 248, 231, 0.5) !important;
+  border: none !important;
+  border-top: 1px solid rgba(255, 248, 231, 0.88) !important;
+  border-left: 1px solid rgba(255, 248, 231, 0.62) !important;
+  border-radius: 18px !important;
+  padding: 14px 16px !important;
+  margin-bottom: 16px !important;
+  box-shadow: 0px 8px 24px rgba(44, 82, 52, 0.06) !important;
+  list-style: none !important;
+}
