@@ -4460,3 +4460,8 @@ li.skins.picture.blurb,
   box-shadow: 0px 8px 24px rgba(44, 82, 52, 0.06) !important;
   list-style: none !important;
 }
+
+textarea::-webkit-resizer {
+  display: none !important;
+  background: transparent !important;
+}
