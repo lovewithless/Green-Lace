@@ -4526,10 +4526,9 @@ div#admin-banner {
   border-bottom: 1px dotted #8C5A3C !important;
 }
 
-/* ===== 温度计进度条 ===== */
 #admin-banner .thermometer-content {
   width: 80% !important;
-  height: 1.5em !important;
+  height: 1.6em !important;
   margin: 10px auto 4px auto !important;
   background: transparent !important;
   border: none !important;
@@ -4548,9 +4547,10 @@ div#admin-banner {
   background: rgba(255, 251, 247, 0.85) !important;
   background-color: rgba(255, 251, 247, 0.85) !important;
   border-radius: 9999px !important;
-  overflow: hidden !important;
   box-shadow: inset 0 1px 2px rgba(44, 82, 52, 0.1) !important;
   position: relative !important;
+  overflow: visible !important;
+  height: 1.6em !important;
 }
 
 #admin-banner .thermometer .track div.progress {
@@ -4559,22 +4559,43 @@ div#admin-banner {
   background-image: linear-gradient(90deg, #A8BC93 0%, #869C73 50%, #5F7357 100%) !important;
   border-radius: 9999px !important;
   box-shadow: 0 1px 2px rgba(44, 82, 52, 0.15) !important;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-end !important;
+  min-width: fit-content !important;
+  position: relative !important;
 }
 
 #admin-banner .thermometer .progress .amount {
   color: #FFF8E7 !important;
-  padding-right: 0.75em !important;
+  padding: 0 0.75em !important;
   font-weight: bold !important;
-  text-shadow: 0 1px 1px rgba(44, 82, 52, 0.25) !important;
+  text-shadow: 0 1px 2px rgba(44, 82, 52, 0.4) !important;
+  font-size: 0.95em !important;
+  white-space: nowrap !important;
+  display: inline-block !important;
+  line-height: 2.0em !important;
+}
+
+#admin-banner .thermometer .goal {
+  position: absolute !important;
+  right: 0 !important;
+  top: 0 !important;
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
 }
 
 #admin-banner .thermometer .goal .amount {
   color: #593423 !important;
-  padding-left: 0.5em !important;
+  padding: 0 0.75em !important;
   font-weight: bold !important;
+  font-size: 0.95em !important;
+  white-space: nowrap !important;
+  line-height: 1.8em !important;
 }
 
-/* 兜底：同时处理文字里的 .progress/.goal（非温度计内） */
 #admin-banner blockquote .progress,
 #admin-banner blockquote .goal {
   color: #6B3F2A !important;
@@ -4582,7 +4603,6 @@ div#admin-banner {
   background: transparent !important;
 }
 
-/* 关闭按钮 */
 #admin-banner button.showme,
 #admin-banner .showme.action,
 #admin-banner button[aria-label="hide banner"] {
