@@ -4622,3 +4622,30 @@ div#admin-banner {
   color: #8C5A3C !important;
   background: transparent !important;
 }
+
+.filters input[type="checkbox"],
+form.filters input[type="checkbox"],
+#main.works-index .filters input[type="checkbox"],
+#main .filters input[type="checkbox"],
+.filters input[type="radio"],
+form.filters input[type="radio"] {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  background: none !important;
+  box-shadow: none !important;
+  position: absolute !important;
+  left: -9999px !important;
+  opacity: 0 !important;
+}
+
+.filters input[type="checkbox"]:checked::after,
+.filters input[type="checkbox"]::after {
+  display: none !important;
+  content: none !important;
+}
