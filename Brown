@@ -4649,3 +4649,37 @@ form.filters input[type="radio"] {
   display: none !important;
   content: none !important;
 }
+
+#main.admin_posts-show .home .primary.header.module .icon::after,
+body.admin_posts-show .home .primary.header.module .icon::after {
+  display: none !important;
+}
+
+#main.admin_posts-show .home .primary.header.module .icon img,
+body.admin_posts-show .home .primary.header.module .icon img {
+  display: none !important;
+}
+
+#main.admin_posts-show .home .primary.header.module .icon,
+body.admin_posts-show .home .primary.header.module .icon {
+  width: 150px !important;
+  height: 150px !important;
+  background-color: transparent !important;
+  background-image: url("https://raw.githubusercontent.com/lovewithless/-beta1.0/main/icon/IMG_0961.PNG") !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  overflow: visible !important;
+}
+
+#main.admin_posts-show .home .primary.header.module .icon a,
+#main.admin_posts-show .home .primary.header.module .icon::before,
+body.admin_posts-show .home .primary.header.module .icon a,
+body.admin_posts-show .home .primary.header.module .icon::before {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+}
