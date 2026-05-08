@@ -1956,7 +1956,7 @@ div.preface blockquote.userstuff {
 #header h1.heading a {
   display: block !important;
   margin: 0 auto !important;
-  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_0942.PNG") !important;
+  background-image: url("https://lovewithless.github.io/-beta1.0/icon/IMG_1064.PNG") !important;
   background-repeat: no-repeat !important;
   background-position: center bottom !important;
   background-size: contain !important;
@@ -4648,6 +4648,25 @@ form.filters input[type="radio"] {
 .filters input[type="checkbox"]::after {
   display: none !important;
   content: none !important;
+}
+
+dd.series .divider,
+.series .divider,
+span.divider {
+  color: var(--text-link) !important;
+  background: transparent !important;
+}
+
+dd.series .position,
+.series .position {
+  color: var(--text-main) !important;
+}
+
+dd.series .previous,
+dd.series .next,
+.series .previous,
+.series .next {
+  color: var(--text-link) !important;
 }
 
 #main.admin_posts-show .home .primary.header.module .icon::after,
