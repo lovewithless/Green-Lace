@@ -1222,13 +1222,13 @@ li.collection dl.stats dd a[href$=fandoms]::before {
   background: url(https://lovewithless.github.io/-beta1.0/icon/IMG_0920.PNG) !important;
 }
 
-.listbox,
-fieldset fieldset.listbox {
+#main .listbox,
+#dashboard .listbox,
+#main fieldset.listbox,
+#dashboard fieldset.listbox {
   background: transparent !important;
-  border: none !important;
-  border-radius: 15px !important;
-  box-shadow: none !important;
-  padding: 0 !important;
+  background-color: transparent !important;
+  background-image: none !important;
 }
 
 .listbox .index {
