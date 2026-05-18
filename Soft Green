@@ -7,7 +7,6 @@
  * ⚠️ 如需修改请 fork 后署名原作者
  * ⚠️ 请勿商用
  * ============================================ */
-html {
 html,
 body,
 #outer,
@@ -1182,13 +1181,13 @@ li.collection dl.stats dd a[href$=fandoms]::before {
   background: url(https://lovewithless.github.io/-beta1.0/icon/IMG_0920.PNG) !important;
 }
 
-#main .listbox,
-#dashboard .listbox,
-#main fieldset.listbox,
-#dashboard fieldset.listbox {
+.listbox,
+fieldset fieldset.listbox {
   background: transparent !important;
-  background-color: transparent !important;
-  background-image: none !important;
+  border: none !important;
+  border-radius: 15px !important;
+  box-shadow: none !important;
+  padding: 0 !important;
 }
 
 .listbox .index {
