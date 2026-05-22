@@ -4661,3 +4661,7 @@ body.admin_posts-show .home .primary.header.module .icon::before {
   width: 100% !important;
   height: 100% !important;
 }
+
+#main .splash .favorite::after {
+  z-index: 0 !important;
+}
