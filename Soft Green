@@ -4662,6 +4662,17 @@ body.admin_posts-show .home .primary.header.module .icon::before {
   height: 100% !important;
 }
 
-#main .splash .favorite::after {
-  z-index: 0 !important;
+ul.tags a.tag,
+a.tag,
+a.tag:visited,
+a.tag:link,
+li.added.tag,
+.splash .favorite li a {
+  position: relative !important;
+  z-index: 2 !important;
+}
+
+#header .dropdown .menu,
+#greeting .menu {
+  z-index: 999 !important;
 }
